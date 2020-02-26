@@ -102,14 +102,17 @@
 # Preflight
 ##
 
+cask_args appdir: '/Applications'
+
 # Tap homebrew
 tap 'homebrew/cask'
+#tap 'caskroom/cask'
 tap 'homebrew/cask-drivers'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/core'
-tap 'homebrew/boneyard'
-tap 'homebrew/dev-tools'
+##NOT WORKING## tap 'homebrew/boneyard'
+##NOT WORKING## tap 'homebrew/dev-tools'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
 
@@ -129,7 +132,7 @@ tap 'homebrew/services'
 cask 'firefox'
 
 # Firefox developer edition, which features programming tools.
-cask 'firefox-developer-edition'
+#cask 'firefox-developer-edition'
 
 # Brave web browser, which features security by default.
 cask 'brave-browser'
@@ -158,17 +161,17 @@ cask 'opera'
 cask 'iterm2'
 
 # Tmux is a newer terminal multiplexer.
-brew 'pkg-config', link: true
-brew 'tmux'
+#brew 'pkg-config', link: true
+#brew 'tmux'
 
 # tmate is a fork of tmux that makes screen sharing friendlier.
-brew 'tmate'
+#brew 'tmate'
 
 # Screen is an older terminal multiplexer.
-brew 'screen'
+#brew 'screen'
 
 # ngrok opens a secure tunnel to localhost
-cask 'ngrok'
+#cask 'ngrok'
 
 ##
 # Shells
@@ -177,22 +180,22 @@ cask 'ngrok'
 ##
 
 # Bash is the Bourne Again SHell. Bash is an sh-compatible shell.
-brew 'bash'
+#brew 'bash'
 
 # Programmable completion functions for bash
-brew 'bash-completion'
+#brew 'bash-completion'
 
 # Bashish is a theme enviroment for text terminals.
-brew 'bashish'
+#brew 'bashish'
 
 # Zsh is a shell designed for interactive use.
-brew 'zsh'
+#brew 'zsh'
 
 # Fish shell.
-brew 'fish'
+#brew 'fish'
 
 # Mobile Shell (MOSH) is like SSH plus roaming and smart echo.
-brew 'mobile-shell'
+#brew 'mobile-shell'
 
 ##
 # Passwords
@@ -202,19 +205,19 @@ brew 'mobile-shell'
 ##
 
 # Pass, a Unix password manager for the command line
-brew 'pass'
+#brew 'pass'
 
 # Keybase.io digital signature manager
-cask 'keybase'
+#cask 'keybase'
 
 # Authy password manager, which is cross-platform
 cask 'authy'
 
 # Bitwarden password manager, which is open-source
-cask 'bitwarden'
+#cask 'bitwarden'
 
 # 1password is a password manager
-cask '1password'
+#cask '1password'
 
 # LastPass is a password manager
 cask 'lastpass'
@@ -227,47 +230,47 @@ cask 'lastpass'
 ##
 
 # bat is like `cat` plus line numbers, syntax highlighting, and more.
-brew 'bat'
+#brew 'bat'
 
 # less is like `more` plus has more capability.
-brew 'less'
+#brew 'less'
 
 # most is like `more` plus has more power.
-brew 'most'
+#brew 'most'
 
 # Vim editor
-brew 'vim'
+#brew 'vim'
 
 # MacVIM editor
-cask 'macvim'
+#cask 'macvim'
 
 # Emacs editor with extra features; recommended by Spacemacs and Doom emacs
-brew 'emacs-plus'
+#brew 'emacs-plus'
 
 # Atom editor by GitHub
-cask 'atom'
+#cask 'atom'
 
 # Sublime text editor
-cask 'sublime-text'
+#cask 'sublime-text'
 
 # GNU Aspell is a free open source spell checker; compare `lspell`.
-brew 'aspell', args: ['with-lang=en']
+#brew 'aspell', args: ['with-lang=en']
 
 # Enca - detect and convert encoding of text files
-brew 'enca'
+#brew 'enca'
 
 # MacTex: LaTeX document preparation system with high-quality typesetting.
-cask 'mactex'
+#cask 'mactex'
 
 ##
 # Office software
 ##
 
 # LibreOffice is a large suite of software for documents, spreadsheets, diagrams.
-cask 'libreoffice'
+#cask 'libreoffice'
 
 # Microsof Office is a large suite of software for documents, spreadsheets, diagrams.
-cask "microsoft-office"
+#cask "microsoft-office"
 
 ##
 # Downloaders
@@ -276,13 +279,13 @@ cask "microsoft-office"
 ##
 
 # Carthage is a simple, decentralized dependency manager for Cocoa.
-brew 'carthage'
+#brew 'carthage'
 
 # curl is a command line tool for transferring data with URL syntax.
-brew 'curl', link: true
+#brew 'curl', link: true
 
 # HTTrack is a free and easy-to-use offline browser utility.
-brew 'httrack'
+#brew 'httrack'
 
 # Wget is a free software package for retrieving files using HTTP and FTP.
 brew 'wget'
@@ -295,49 +298,49 @@ brew 'wget'
 ##
 
 # CVS is a version control system.
-brew 'cvs'
+#brew 'cvs'
 
 # Git is a free and open source distributed version control system.
 brew 'git'
 
 # Git Large File Storage
-brew 'git-lfs'
+#brew 'git-lfs'
 
 # TODO
-brew 'git-cola'
+#brew 'git-cola'
 
 # Git extensions to provide high-level operations for Git Flow branching model.
-brew 'git-flow'
+#brew 'git-flow'
 
 # TODO
-brew 'git-ftp'
+#brew 'git-ftp'
 
 # TODO
-brew 'git-gerrit'
+#brew 'git-gerrit'
 
 # TODO
-brew 'git-multipush'
+#brew 'git-multipush'
 
 # TODO
-brew 'git-now'
+#brew 'git-now'
 
 # TODO
-brew 'git-url-sub'
+#brew 'git-url-sub'
 
 # GitUp friendly Git interface and visualizer
-cask 'gitup'
+#cask 'gitup'
 
 # SourceTree graphic client for git
-cask 'sourcetree'
+#cask 'sourcetree'
 
 # Mercurial version control system.
-brew 'hg'
+#brew 'hg'
 
 # Subversion version control system.
-brew 'sqlite'; brew 'subversion'
+#brew 'sqlite'; brew 'subversion'
 
 # Perforce merge tool for visual diffs and merges
-cask 'p4v'
+#cask 'p4v'
 
 ##
 # GNU command line tools
@@ -364,30 +367,30 @@ cask 'p4v'
 # Basic file, shell and text manipulation utilities of the GNU operating system.
 brew 'coreutils'
 
-brew 'binutils'
-brew 'diffutils'
-brew 'ed'
-brew 'findutils'
-brew 'gawk'
-brew 'gnu-indent'
-brew 'gnu-sed'
-brew 'gnu-tar'
-brew 'gnu-which'
-brew 'gnutls'
-brew 'gzip'
-brew 'watch'
-brew 'wdiff'
+#brew 'binutils'
+#brew 'diffutils'
+#brew 'ed'
+#brew 'findutils'
+#brew 'gawk'
+#brew 'gnu-indent'
+#brew 'gnu-sed'
+#brew 'gnu-tar'
+#brew 'gnu-which'
+#brew 'gnutls'
+#brew 'gzip'
+#brew 'watch'
+#brew 'wdiff'
 
 ##
 # Some GNU command line tools already exist by default on OS X.
 # We choose to replace these with newer versions.
 ##
 
-brew 'gdb'  # gdb requires further actions to make it work. See `brew info gdb`.
-brew 'gpatch'
-brew 'm4'
-brew 'make'
-brew 'nano'
+#brew 'gdb'  # gdb requires further actions to make it work. See `brew info gdb`.
+#brew 'gpatch'
+#brew 'm4'
+#brew 'make'
+#brew 'nano'
 
 ##
 # System related
@@ -396,10 +399,11 @@ brew 'nano'
 ##
 
 # Automake is a tool for automatically generating Makefile installation files.
-brew 'automake'
+#brew 'automake'
 
 # GNU Privacy Guard (GnuPG) provides encryption as a free replacement for PGP.
 brew 'gpg'
+brew 'gnupg'
 
 # GNU Privacy Guard (GnuPG) PIN entry for macOS to do GPG terminal decryption
 brew 'pinentry-mac'
@@ -408,45 +412,45 @@ brew 'pinentry-mac'
 brew 'openssl'
 
 # pkg-config is a helper tool used when compiling applications and libraries.
-brew 'pkg-config', link: true
+#brew 'pkg-config', link: true
 
 # Functions for use by applications that allow users to edit command lines while typing.
-brew 'readline'
+#brew 'readline'
 
 # Parallel SSH
-brew 'pssh'
+#brew 'pssh'
 
 # pkg-config is a helper tool used when compiling applications and libraries.
-brew 'pkg-config'
+#brew 'pkg-config'
 
 # PCRE: Perl-compatible regular expressions, for better searching.
-brew 'pcre'
-brew 'pcre++'
+#brew 'pcre'
+#brew 'pcre++'
 
 # fd: a simple, fast and user-friendly alternative to find.
 brew 'fd'
 
 # RPM is the RedHat Package manager
-brew 'rpm'
+#brew 'rpm'
 
 # FZF is a command line fuzzy finder
-brew 'fzf'
+#brew 'fzf'
 
 ##
 # Command line system operator helpers
 ##
 
 # Navi is a command line cheat sheet navigator
-brew 'denisidoro/tools/navi'
+#brew 'denisidoro/tools/navi'
 
 # e.g. is a command line examples
-brew 'eg-examples'
+#brew 'eg-examples'
 
 # TLDR provides simplified and community-driven man pages
-brew 'tldr'
+#brew 'tldr'
 
 # howdoi shows instant coding answers via the command line
-brew 'howdoi'
+#brew 'howdoi'
 
 ##
 # File handling
@@ -476,7 +480,7 @@ brew 'p7zip'
 brew 'gzip'
 
 # RPM to CPIO converts a Red Hat RPM package file to a cpio archive
-brew 'rpm2cpio'
+#brew 'rpm2cpio'
 
 
 ## Encryption & decryption
@@ -498,19 +502,19 @@ brew 'scrypt'
 brew 'rsync'
 
 # Unison is a high-level file synchronization utility.
-brew 'unison'
+#brew 'unison'
 
 # Syncthing is open source file sharing.
-brew 'syncthing'
+#brew 'syncthing'
 
 # Dropbox file sharing.
 cask 'dropbox'
 
 # Transmission bittorrent client.
-cask 'transmission'
+#cask 'transmission'
 
 # Box.com sync
-cask 'box-sync'
+#cask 'box-sync'
 
 ##
 # Text search
@@ -525,10 +529,10 @@ brew 'ripgrep'
 brew 'grep'
 
 # ag is "the silver searcher" search tool; retired by ripgrep.
-brew 'ag'
+#brew 'ag'
 
 # sift is like grep, plus faster and with more features; retired by ripgrep.
-brew 'sift'
+#brew 'sift'
 
 # jq is a lightweight and flexible command-line JSON processor.
 brew 'jq'
@@ -549,13 +553,13 @@ cask 'tad'
 ##
 
 # Qt cross-platform software development
-brew 'qt5'
+#brew 'qt5'
 
 # WINE runs Windows applications on other operating systems.
-brew 'wine'
+#brew 'wine'
 
 # Xquartz X.Org X Window System that runs on OS X; needed for some image software.
-cask 'xquartz'
+#cask 'xquartz'
 
 ##
 # Multimedia
@@ -569,7 +573,7 @@ brew 'libtiff'
 ## Multimedia players
 
 # Chafa image viewer using terminal emulator
-brew 'chafa'
+#brew 'chafa'
 
 # VLC media player
 cask 'vlc'
@@ -590,13 +594,13 @@ cask 'eqmac'
 cask 'gimp'
 
 # Inkscape vector-based image editor, similar to Adobe Illustrator
-cask 'inkscape'
+#cask 'inkscape'
 
 # Blender 3D modeller
-cask 'blender'
+#cask 'blender'
 
 # Shotcut movie editor
-cask 'shotcut'
+#cask 'shotcut'
 
 # Freemind mind map editor
 cask 'freemind'
@@ -613,10 +617,10 @@ brew 'vtk'
 cask 'calibre'
 
 # Kindle book reader by Amazon
-cask 'kindle'
+#cask 'kindle'
 
 # Adobe Air player for multimedia content
-cask 'adobe-air'
+#cask 'adobe-air'
 
 ## Misc
 
@@ -624,83 +628,83 @@ cask 'adobe-air'
 brew 'graphicsmagick'
 
 # TODO
-brew 'graphviz'
+#brew 'graphviz'
 
 # Gnuplot is a portable command-line driven graphing utility.
-brew 'gnuplot'
+#brew 'gnuplot'
 
 # Jasper command line transcoder between JPEG2000 and other formats.
-brew 'jasper'
+#brew 'jasper'
 
 # Image optimizer
-cask 'imageoptim'
+#cask 'imageoptim'
 
 ## Media-Related
 
 # TODO
-brew 'exif'
+#brew 'exif'
 
 # TODO
-brew 'exiftags'
+#brew 'exiftags'
 
 # TODO
-brew 'exiftool'
+#brew 'exiftool'
 
 # TODO
-brew 'flac'
+#brew 'flac'
 
 # FF MPEG for video
-brew 'ffmpeg'
-brew 'ffmpeg2theora'
-brew 'ffmpegthumbnailer'
+#brew 'ffmpeg'
+#brew 'ffmpeg2theora'
+#brew 'ffmpegthumbnailer'
 
 # TODO
-brew 'imagemagick'
+#brew 'imagemagick'
 
 # TODO
-brew 'theora'
+#brew 'theora'
 
 ##
 # Server-Related
 ##
 
 # Docker software containers to help distribute applications.
-brew 'docker'
-brew 'boot2docker'
+#brew 'docker'
+#brew 'boot2docker'
 
 # Compose is a tool for defining and running multi-container Docker applications.
-brew 'docker-compose'
+#brew 'docker-compose'
 
 # Docker Machine installs Docker Engine on virtual hosts, and manages the hosts.
-brew 'docker-machine'
+#brew 'docker-machine'
 
 # Consul tool for discovering and configuring services in your infrastructure
-brew 'consul'
+#brew 'consul'
 
 # Monit is for managing and monitoring Unix systems.
-brew 'monit'
+#brew 'monit'
 
 # Nagios IT infrastructure monitoring.
-brew 'nagios'
+#brew 'nagios'
 
 # NGINX web server.
-brew 'nginx'
+#brew 'nginx'
 
 # Varnish reverse-proxy web application accelerator.
-brew 'varnish'
+#brew 'varnish'
 
 ##
 # Font-Related
 ##
 
 # Fontconfig is a library for configuring and customizing font access.
-brew 'fontconfig'
+#brew 'fontconfig'
 
 # FreeType is a freely available software library to render fonts.
-brew 'freetype'
+#brew 'freetype'
 
 # Command-line programs for manipulating fonts
-brew 'lcdf-typetools'
+#brew 'lcdf-typetools'
 
 ##
 # Dupes
@@ -723,33 +727,33 @@ brew 'lcdf-typetools'
 ##
 
 brew 'awk'
-brew 'diffstat'
-brew 'diffutils'
-brew 'ed'
-brew 'expect'
-brew 'fetchmail'
-brew 'file-formula'
-brew 'gdb'
-brew 'gpatch'
-brew 'gperf'
-brew 'groff'
-brew 'heimdal'
-brew 'lapack'
-brew 'libedit'
-brew 'libiconv'
-brew 'libpcap'
-brew 'lsof'
-brew 'm4'
-brew 'make'
-brew 'nano'
-brew 'ncurses'
-brew 'openldap'
-brew 'openssh'
-brew 'tcl-tk'
-brew 'tcpdump'
-brew 'gnu-units'
-brew 'whois'
-brew 'zlib'
+#brew 'diffstat'
+#brew 'diffutils'
+#brew 'ed'
+#brew 'expect'
+#brew 'fetchmail'
+#brew 'file-formula'
+#brew 'gdb'
+#brew 'gpatch'
+#brew 'gperf'
+#brew 'groff'
+#brew 'heimdal'
+#brew 'lapack'
+#brew 'libedit'
+#brew 'libiconv'
+#brew 'libpcap'
+#brew 'lsof'
+#brew 'm4'
+#brew 'make'
+#brew 'nano'
+#brew 'ncurses'
+#brew 'openldap'
+#brew 'openssh'
+#brew 'tcl-tk'
+#brew 'tcpdump'
+#brew 'gnu-units'
+#brew 'whois'
+#brew 'zlib'
 
 ##
 # Brew cask enables installing typical Mac OS X applications.
