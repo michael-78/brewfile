@@ -279,13 +279,13 @@ cask 'lastpass'
 ##
 
 # Carthage is a simple, decentralized dependency manager for Cocoa.
-#brew 'carthage'
+brew 'carthage'
 
 # curl is a command line tool for transferring data with URL syntax.
-#brew 'curl', link: true
+brew 'curl', link: true
 
 # HTTrack is a free and easy-to-use offline browser utility.
-#brew 'httrack'
+brew 'httrack'
 
 # Wget is a free software package for retrieving files using HTTP and FTP.
 brew 'wget'
@@ -508,7 +508,7 @@ brew 'rsync'
 #brew 'syncthing'
 
 # Dropbox file sharing.
-cask 'dropbox'
+#cask 'dropbox'
 
 # Transmission bittorrent client.
 #cask 'transmission'
@@ -763,184 +763,181 @@ brew 'awk'
 ##
 
 # Adium is an open source multi-protocol instant messaging client.
-cask 'adium'
+#cask 'adium'
 
 # TDB
-cask 'adventure'
+#cask 'adventure'
 
 # TDB
-cask 'alfred'
+#cask 'alfred'
 
 # TDB
-cask 'amazon-music'
+#cask 'amazon-music'
 
 # TDB
-cask 'anki'
+#cask 'anki'
 
 # AppCleaner thoroughly uninstalls unwanted apps.
 cask 'appcleaner'
 
 # TDB
-cask 'arq'
+#cask 'arq'
 
 # TDB
-cask 'atext'
+#cask 'atext'
 
 # TDB
-cask 'backblaze-downloader'
+#cask 'backblaze-downloader'
 
 # TDB
-cask 'backuploupe'
+#cask 'backuploupe'
 
 # TDB
-cask 'balsamiq-mockups'
+#cask 'balsamiq-mockups'
 
 # TDB
-cask 'bartender'
+#cask 'bartender'
 
 # TDB
-cask 'basecamp'
+#cask 'basecamp'
 
 # TDB
-cask 'beacon-scanner'
+#cask 'beacon-scanner'
 
 # TDB
-cask 'brain-workshop'
+#cask 'brain-workshop'
 
 # TDB
-cask 'caffeine'
-
-# TDB
-cask 'calibre'
+#cask 'caffeine'
 
 # TDB
 cask 'ccleaner'
 
 # TDB
-cask 'cheatsheet'
+#cask 'cheatsheet'
 
 # TDB
 cask 'coconutbattery'
 
 # TDB
-cask 'codekit'
+#cask 'codekit'
 
 # TDB
-cask 'commandq'
+#cask 'commandq'
 
 # TDB
-cask 'duet'
+#cask 'duet'
 
 # TDB
-cask 'evernote'
+#cask 'evernote'
 
 # TDB
-cask 'flash-player'
+#cask 'flash-player'
 
 # TDB
-cask 'fluid'
+#cask 'fluid'
 
 # TDB
 cask 'freeplane'
 
 # TDB
-cask 'ganttproject'
+#cask 'ganttproject'
 
 # TDB
-cask 'gfxcardstatus'
+#cask 'gfxcardstatus'
 
 # GitHub source code social sharing
-cask 'github'
+#cask 'github'
 
 # TDB
-cask 'gitx'
+#cask 'gitx'
 
 # TDB
-cask 'harvest'
+#cask 'harvest'
 
 # TDB
-cask 'hockey'
+#cask 'hockey'
 
 # TDB
-cask 'hipchat'
+#cask 'hipchat'
 
 # TDB
-cask 'joinme'
+#cask 'joinme'
 
 # TDB
-cask 'jumpcut'
+#cask 'jumpcut'
 
 # TDB
-cask 'krita'
+#cask 'krita'
 
 # TDB
-cask 'launchy'
+#cask 'launchy'
 
 # TDB
-cask 'little-snitch'
+#cask 'little-snitch'
 
 # TODO
-cask 'mysqlworkbench'
+#cask 'mysqlworkbench'
 
 # TODO
-cask 'paparazzi'
+#cask 'paparazzi'
 
 # TODO
-cask 'pupil'
+#cask 'pupil'
 
 # TODO
-cask 'quicksilver'
+#cask 'quicksilver'
 
 # TODO
-cask 'rescuetime'
+#cask 'rescuetime'
 
 # Screenhero screen sharing by Slack.
-cask 'screenhero'
+#cask 'screenhero'
 
 # TODO
-cask 'sequential'
+#cask 'sequential'
 
 # TODO
-cask 'shortcat'
+#cask 'shortcat'
 
 # Silverlight video player by Microsoft.
-cask 'silverlight'
+#cask 'silverlight'
 
 # TODO
-cask 'skitch'
+#cask 'skitch'
 
 # Skype calling with video and phone calls.
-cask 'skype'
+#cask 'skype'
 
 # Discord chat
-cask 'discord'
+#cask 'discord'
 
 # Slack chat client
 cask 'slack'
 
 # TODO
-cask 'sleep-monitor'
+#cask 'sleep-monitor'
 
 # Spotify music player
-cask 'spotify'
+#cask 'spotify'
 
 # TODO
-cask 'superduper'
+#cask 'superduper'
 
 # Synergy screen sharing utility
-cask 'synergy'
+#cask 'synergy'
 
 # TODO
-cask 'thisservice'
+#cask 'thisservice'
 
 # TODO
-cask 'transmit'
+#cask 'transmit'
 
 # TODO
-cask 'todos'
+#cask 'todos'
 
 # Unison file synchronizer.
-cask 'unison'
+#cask 'unison'
 
 ##
 # Environment-related
@@ -950,27 +947,27 @@ cask 'unison'
 #cask 'displaylink'
 
 # Karabiner remaps keyboard keys
-cask 'karabiner-elements'
+#cask 'karabiner-elements'
 
 # OSX FUSE file system
-cask 'osxfuse'
+#cask 'osxfuse'
 
 # Flux dims the screen colors for better nighttime visibility.
-cask 'flux'
+#cask 'flux'
 
 ## Misc
 
-cask 'flip4mac'
-cask 'google-hangouts'
-cask 'inky'
-cask 'obs'
+#cask 'flip4mac'
+#cask 'google-hangouts'
+#cask 'inky'
+#cask 'obs'
 
 # Prey is a service tracks laptops and phones; it needs a password
 #cask 'prey'
 
-cask 'teamviewer'
-cask 'unity-web-player'
-cask 'zoomus'
+#cask 'teamviewer'
+#cask 'unity-web-player'
+#cask 'zoomus'
 
 ##
 # Mac App Store
@@ -1041,7 +1038,7 @@ cask 'zoomus'
 #brew 'codeclimate'
 
 # Command-line programs for manipulating fonts
-brew 'lcdf-typetools'
+#brew 'lcdf-typetools'
 
 ##
 # Shell
@@ -1051,55 +1048,55 @@ brew 'lcdf-typetools'
 brew 'grsync'
 
 # Pandoc document convert
-brew 'pandoc', link: true
+#brew 'pandoc', link: true
 
 # Shell script syntax check linter
-brew 'shellcheck'
+#brew 'shellcheck'
 
 # BATS: Bash Automated Testing System
-brew 'bats'
+#brew 'bats'
 
 ##
 # Clients
 ##
 
 # GNU inetutils contains telnet, ftp, etc.
-brew 'inetutils'
+#brew 'inetutils'
 
 # Shuttle: simple SSH shortcut menu
-cask 'shuttle'
+#cask 'shuttle'
 
 # Thunderbird email client by Mozilla.
-cask 'thunderbird'
+#cask 'thunderbird'
 
 # Fugu: a graphical shell for SSH and FTP.
-cask 'fugu'
+#cask 'fugu'
 
 # Charles: enables a developer to view HTTP traffic.
-cask 'charles'
+#cask 'charles'
 
 # Postman: a complete API Development Environment.
 cask 'postman'
 
 # Insomnia: REST client for API testing.
-cask 'insomnia'
+#cask 'insomnia'
 
 ##
 # Languages
 ##
 
 # Apache Maven is a software project management and comprehension tool.
-brew 'maven'
+#brew 'maven'
 
 # Apache Spark is for analyitcs
-brew 'apache-spark'
+#brew 'apache-spark'
 
 ##
 # Mac programming
 ##
 
 # Tunnelblick remote access VPN
-cask 'tunnelblick'
+#cask 'tunnelblick'
 
 ##
 # Networking
@@ -1122,16 +1119,16 @@ brew 'cmake', link: true
 cask 'wireshark-chmodbpf'
 
 # Charles web debugging proxy
-cask 'charles'
+#cask 'charles'
 
 # Siege is an http load testing and benchmarking utility.
-brew 'siege'
+#brew 'siege'
 
 # nmap network mapper is a security scanner
 brew 'nmap'
 
 # Certbot: automatically enable HTTPS on your website via Let's Encrypt
-brew 'certbot'
+#brew 'certbot'
 
 ##
 # Markup languages
@@ -1141,37 +1138,37 @@ brew 'certbot'
 ##
 
 # Pandoc converts among various formats, such as Markdown and HTML
-brew 'pandoc'
+#brew 'pandoc'
 
 ## LaTex app that comes with lua(la)tex engines
-cask 'TeXShop'
+#cask 'TeXShop'
 
 ## Markdown
 
 # MacDown simple markdown editor
-cask 'macdown'
+#cask 'macdown'
 
 # MarkText free open source markdown editor
-cask 'mark-text'
+#cask 'mark-text'
 
 ## UML
 
 # StarUML modeling tool
-cask 'staruml'
+#cask 'staruml'
 
 # PlantUML markup text to diagram
-brew 'plantuml'
+#brew 'plantuml'
 
 ## XML
 
 # XML converter
-brew 'xmlstarlet'
+#brew 'xmlstarlet'
 
 # Libxml2 is the XML C parser and toolkit.
-brew 'libxml2'
+#brew 'libxml2'
 
 # Libxslt is the XSLT C library for the XML EXtensible Stylesheet Language.
-brew 'libxslt'
+#brew 'libxslt'
 
 ###########################################################################
 #
@@ -1184,8 +1181,8 @@ brew 'libxslt'
 ##
 
 # Eclipse is a large programming IDE built on Java
-cask 'eclipse-ide'
-cask 'eclipse-platform'
+#cask 'eclipse-ide'
+#cask 'eclipse-platform'
 
 # Netbeans Java IDE
 #cask 'netbeans'
@@ -1199,10 +1196,10 @@ cask 'eclipse-platform'
 ##
 
 # Cassandra database.
-brew 'cassandra'
+#brew 'cassandra'
 
 # CouchDB database, esp. for document-oriented storage.
-brew 'couchdb'
+#brew 'couchdb'
 
 # Hadoop database.
 #brew 'hadoop' # Disbled because it interferes with 'yarn'
@@ -1211,64 +1208,64 @@ brew 'couchdb'
 #brew 'mariadb'  # Disabled because it interferes with 'mysql' and 'percona'
 
 # MySQL dadtabase.
-brew 'mysql'
+#brew 'mysql'
 
 # Memcached data cachce server..
-brew 'libmemcached'
-brew 'memcached'
+#brew 'libmemcached'
+#brew 'memcached'
 
 # PostgreSQL database.
-brew 'postgres'
+#brew 'postgres'
 
 # PostgreSQL database.
-brew 'postgresql'
+#brew 'postgresql'
 
 # Postgres App provides a Mac-friendly database.
-cask 'postgres'
+#cask 'postgres'
 
 # Postgres admin GUI
-cask 'pgadmin4'
+#cask 'pgadmin4'
 
 # DBeaver database manager, community edition
-cask 'dbeaver-community'
+#cask 'dbeaver-community'
 
 # Postgres commmand line interface (CLI) with autocomplete
-brew 'pgcli'
+#brew 'pgcli'
 
 # Prisma replaces traditional ORMs and adds GraphQL
-tap 'prisma/prisma'
-brew 'prisma'
+#tap 'prisma/prisma'
+#brew 'prisma'
 
 # RabbitMQ enterprise message queue based on the emerging AMQP standard.
-brew 'rabbitmq'
+#brew 'rabbitmq'
 
 # Redis database, esp. for key-value cache and store, and data structures.
-brew 'redis', restart_service: true
+#brew 'redis', restart_service: true
 
 # Riak open-source distributed database.
-brew 'riak'
+#brew 'riak'
 
 # SQLite database: self-contained, serverless, zero-configuration, transactional engine.
-brew 'sqlite', link: true
+#brew 'sqlite', link: true
 
 # ZeroMQ message queue
-brew 'zeromq'
+#brew 'zeromq'
 
 ##
 # Database searchers
 ##
 
 # Sphinx search engine, which runs on top of MySQL and/or PostgreSQL.
-brew 'cmake', link: true
-brew 'mysql'
-brew 'postgresql'
-brew 'sphinx'
+#brew 'cmake', link: true
+#brew 'mysql'
+#brew 'postgresql'
+#brew 'sphinx'
 
 # Xapian is an open-source search engine library.
-brew 'xapian'
+#brew 'xapian'
 
 # Miller is like awk, sed, cut, join, sort for data, CSV, TSV, etc.
-brew 'miller'
+#brew 'miller'
 
 ##
 # Database managers
@@ -1277,36 +1274,36 @@ brew 'miller'
 ##
 
 # MySQL Workbench database editor.
-brew 'cmake', link: true
-cask 'mysqlworkbench'
+#brew 'cmake', link: true
+#cask 'mysqlworkbench'
 
 # Liquibase database migration tool
-brew 'liquibase'
+#brew 'liquibase'
 
 # Realm browser mobile database editor.
-cask 'realm-browser'
+#cask 'realm-browser'
 
 # Sequel Pro database management application.
-cask 'sequel-pro'
+#cask 'sequel-pro'
 
 # Realm browser for the Realm embedded database
-cask 'realm-browser'
+#cask 'realm-browser'
 
 # Valentina Studio database manager.
-cask 'valentina-studio'
+#cask 'valentina-studio'
 
 ##
 # Data analytics
 ##
 
 # Elasticsearch is a real-time, distributed storage, search, and analytics engine.
-brew 'elasticsearch'
+#brew 'elasticsearch'
 
 # Logstash helps parse, enrich, transform, and buffer data from a variety of sources.
-brew 'logstash'
+#brew 'logstash'
 
 # Kibana is an open source analytics and visualization platform designed to work with Elasticsearch.
-brew 'kibana'
+#brew 'kibana'
 
 ##
 # Programming languages
@@ -1319,20 +1316,20 @@ brew 'kibana'
 ## Clojure
 
 # Clojure programming language compiler.
-brew 'clojure'
+#brew 'clojure'
 
 # Leiningen automates Clojure projects.
-brew 'leiningen'
+#brew 'leiningen'
 
 ## Elixir
 
 # Elixir programming language built on top of the Erlang VM.
-brew 'elixir'
+#brew 'elixir'
 
 ## Erlang
 
 # Erlang programming language for scalable high-availability systems.
-brew 'erlang'
+#brew 'erlang'
 
 ## Go
 
@@ -1342,70 +1339,70 @@ brew 'go'
 ## Haskell
 
 # Cabal is a package manager for Haskell
-brew 'ghc'
-brew 'cabal-install'
+#brew 'ghc'
+#brew 'cabal-install'
 
 ## Java
 
 # Java programming language
-cask 'java'
+#cask 'java'
 
 # Gradle is a Java build tool
-brew 'gradle'
+#brew 'gradle'
 
 # Maven is a Java build tool
-brew 'maven'
+#brew 'maven'
 
 # Jetty provides a Java web server and javax.servlet container
-brew 'jetty'
+#brew 'jetty'
 
 # Apache Tomcat implements Java Servlet and JavaServer Pages technologies.
-brew 'tomcat'
+#brew 'tomcat'
 
 # Glassfish application server.
-brew 'glassfish'
+#brew 'glassfish'
 
 # Android
-cask 'android-studio'
-cask 'android-file-transfer'
-cask 'android-messages'
-cask 'android-ndk'
-cask 'android-platform-tools'
-cask 'android-sdk'
+#cask 'android-studio'
+#cask 'android-file-transfer'
+#cask 'android-messages'
+#cask 'android-ndk'
+#cask 'android-platform-tools'
+#cask 'android-sdk'
 
 ## JavaScript
 
 # Node.js is a JavaScript platform for building fast, scalable network app.
-brew 'node'
+#brew 'node'
 
 # V8 JavaScript Engine.
-brew 'v8'
+#brew 'v8'
 
 # JSON output using the shell
-brew 'jo'
+#brew 'jo'
 
 # JID JSON explorer
-tap 'simeji/jid'
-brew 'jid'
+#tap 'simeji/jid'
+#brew 'jid'
 
 ## Lua
 
 # Lua scripting language
-brew 'lua'
+#brew 'lua'
 
 # Lua just-in-time compiler
-brew 'luajit'
+#brew 'luajit'
 
 ## Perl
 
 # Perl programming language, esp. for systems administration.
-brew 'perl'
+#brew 'perl'
 
 # Perl-Compatible Regular Expressions pattern matching tools.
-brew 'pcre'
+#brew 'pcre'
 
 # CPAN search for perl modules
-brew 'cpansearch'
+#brew 'cpansearch'
 
 ## Python
 
@@ -1414,59 +1411,59 @@ brew 'python'
 brew 'python3'
 
 # Python on the JVM
-brew 'jython'
+#brew 'jython'
 
 ## R
 
 # R programming language, esp. for statistics. TODO: which R do we want?
-brew 'r'
+#brew 'r'
 
 ## Ruby
 
 # chruby changes the current Ruby.
-brew 'chruby'
+#brew 'chruby'
 
 # JRuby is a high performance, stable, fully threaded Java implementation of Ruby.
-brew 'jruby'
+#brew 'jruby'
 
 # Ruby programming language; compare `perl`, `python`.
-brew 'ruby'
+#brew 'ruby'
 
 # Tool to install various implementations of Ruby.
-brew 'ruby-install'
+#brew 'ruby-install'
 
 ## Rust
 
 # Rust programming language
-brew 'rust'
+#brew 'rust'
 
 ## Scala
 
 # Scala programming language, that runs on top of the JVM.
-brew 'scala'
+#brew 'scala'
 
 ## iOS, Objective-C, Swift
 
 # Alcatraz Xcode plugin manager
-cask 'alcatraz'
+#cask 'alcatraz'
 
 # Appium test automation framework
-cask 'appium'
+#cask 'appium'
 
 # Carthage Xcode project dependency manager.
-brew 'carthage'
+#brew 'carthage'
 
 # Command-line application launcher for the iOS Simulator
-brew 'ios-sim'
+#brew 'ios-sim'
 
 # Tool to help with Swift style and conventions.
-brew 'swiftlint'
+#brew 'swiftlint'
 
 # SourceKitten attaches to SourceKit AST.
-brew 'sourcekitten'
+#brew 'sourcekitten'
 
 ## Tcl/Tk cross-platform toolkit
-brew 'tcl-tk'
+#brew 'tcl-tk'
 
 ##
 # Programming processes
@@ -1475,72 +1472,73 @@ brew 'tcl-tk'
 ## Compilers
 
 # GCC GNU Compiler Collection
-brew 'gcc'
+#brew 'gcc'
 
 # LLVM compiler
-brew 'llvm', args: ['with-toolchain']
+#brew 'llvm', args: ['with-toolchain']
 
 ## Continuous automation
 
 # Jenkins open source automation server for continuous integration
-brew 'jenkins'
+#brew 'jenkins'
 
 ## Documentation
 
 # Dash documentation browser and code snippet manager
-cask 'dash'
+#cask 'dash'
 
 # Doxygen parses source code documenation annotations
-brew 'doxygen'
+#brew 'doxygen'
 
 ## Serializers
 
 # Protocol buffers for serializing structured data; compare thrift.
-brew 'protobuf'
-brew 'protobuf-c'
+#brew 'protobuf'
+#brew 'protobuf-c'
 
 # Thrift network serialization protocol; compare protobuf.
-brew 'thrift'
+#brew 'thrift'
 
 ## Testing
 
 # Selenium standalone server
-brew 'selenium-server-standalone'
+#brew 'selenium-server-standalone'
 
 # Selenium webdriver for Chrome browser
-brew 'chromedriver'
+#brew 'chromedriver'
 
 # Selenimum webdriver for Firefox browser
-brew 'geckodriver'
+#brew 'geckodriver'
 
 ##
 # Platforms
 ##
 
 # Azure by Microsoft
-brew 'azure-cli'
+#brew 'azure-cli'
 
 # Amazon Web Services (AWS) Command Line Interface (CLI)
 brew 'awscli'
 
 # AWS command line tools
-tap 'wallix/awless'
-brew 'awless'
+#tap 'wallix/awless'
+#brew 'awless'
 
 # Heroku app hosting
-brew 'heroku'
+#brew 'heroku'
 
 ## Virtual machines
 
 # VirtualBox creates and configures portable development environments, by Oracle.
 cask 'virtualbox'
+#cask 'virtualbox-extension-pack'
 
 # VMWare Fusion virutal machines
 cask 'vmware-fusion'
 
 # Vagrant lightweight, reproducible, portable development environments
-cask 'vagrant'
-cask 'vagrant-manager'
+#cask 'vagrant'
+#cask 'vagrant-manager'
 
 ## Provisioning
 
@@ -1555,12 +1553,12 @@ brew 'ansible'
 ## Containeriztion
 
 # Docker assembles applications from components.
-cask 'docker'
+#cask 'docker'
 
 ## Orchestration
 
 # Kubernetes Solo cluster for macOS
-cask 'kube-solo'
+#cask 'kube-solo'
 
 ###########################################################################
 #
@@ -1588,28 +1586,28 @@ cask 'kube-solo'
 ##
 
 # AppCode Swift IDE
-cask 'appcode'
+#cask 'appcode'
 
 # CLion C/C++ IDE
-cask 'clion'
+#cask 'clion'
 
 # DataGrip SQL IDE
-cask 'datagrip'
+#cask 'datagrip'
 
 # IntelliJ Java IDE
-cask 'intellij-idea'
+#cask 'intellij-idea'
 
 # PhpStorm PHP IDE
-cask 'phpstorm'
+#cask 'phpstorm'
 
 # PyCharm Python IDE
-cask 'pycharm'
+#cask 'pycharm'
 
 # RubyMine Ruby IDE
-cask 'rubymine'
+#cask 'rubymine'
 
 # WebStorm IDE
-cask 'webstorm'
+#cask 'webstorm'
 
 ##
 # OmniGroup
@@ -1618,21 +1616,21 @@ cask 'webstorm'
 ##
 
 # To do list task manager
-cask 'omnifocus'
+#cask 'omnifocus'
 
 # Diagramming
-cask 'omnigraffle'
+#cask 'omnigraffle'
 
 # Project management planning
-cask 'omniplan'
+#cask 'omniplan'
 
 # Outliner
-cask 'omnioutliner'
+#cask 'omnioutliner'
 
 ## Paw.cloud
 
 # Paw HTTP API testing tool
-cask 'paw'
+#cask 'paw'
 
 ###########################################################################
 #
@@ -1653,49 +1651,49 @@ cask 'paw'
 ##
 
 # THe libevent API provides provides asynchronous event notification and callbacks.
-brew 'libevent'
+#brew 'libevent'
 
 # Magic number recognition library for file types.
-brew 'libmagic'
+#brew 'libmagic'
 
 # Audio/Visual converters
-brew 'libav'
+#brew 'libav'
 
 # Curl web fetcher
 #brew 'libcurl'  # EOL
 
 # Foreign Function Interface Library
-brew 'libffi'
+#brew 'libffi'
 
 # Text encoding
-brew 'libiconv'
+#brew 'libiconv'
 
 # File magic number recognizer
-brew 'libmagic'
+#brew 'libmagic'
 
 # Sodium secure cryptography
-brew 'libsodium'
+#brew 'libsodium'
 
 # GNU libtool is a generic library support script.
-brew 'libtool'
+#brew 'libtool'
 
 # XML handlers
-brew 'libxml2'
-brew 'libxslt'
+#brew 'libxml2'
+#brew 'libxslt'
 
 # High-level interface to X.509 and CMS (Cryptographic Message Syntax)
-brew 'libksba'
+#brew 'libksba'
 
 # YAML markup language
-brew 'libyaml'
+#brew 'libyaml'
 
 # YAML lint validator
-brew 'yamllint'
+#brew 'yamllint'
 
 # Images
-brew 'libjpg'
-brew 'libpng'
-brew 'libtiff'
+#brew 'libjpg'
+#brew 'libpng'
+#brew 'libtiff'
 
 ###########################################################################
 #
@@ -1704,176 +1702,202 @@ brew 'libtiff'
 ###########################################################################
 
 # TODO
-brew 'html-xml-utils'
+#brew 'html-xml-utils'
 
 # Mutt is a small powerful text-based mail client.
-brew 'mutt'
+#brew 'mutt'
 
 # TODO
-brew 'ncdu'
+#brew 'ncdu'
 
 # TODO
-brew 'randomize-lines'
+#brew 'randomize-lines'
 
 # TODO
-brew 'rename'
+#brew 'rename'
 
 # TODO
-brew 'salt'
+#brew 'salt'
 
 # Tree is a directory lister that shows a tree outline
-brew 'tree'
+#brew 'tree'
 
 # xclip is a command line interface to the X11 clipboard.
-brew 'xclip'
+#brew 'xclip'
 
 # TODO
-brew 'abook'
+#brew 'abook'
 
 # TODO
-brew 'ack'
+#brew 'ack'
 
 # TODO
-brew 'apachetop'
+#brew 'apachetop'
 
 # TODO
-brew 'ascii'
+#brew 'ascii'
 
 # TODO
-brew 'asciidoc'
+#brew 'asciidoc'
 
 # TODO
-brew 'asciitex'
+#brew 'asciitex'
 
 # TODO
-brew 'autobench'
+#brew 'autobench'
 
 # TODO
-brew 'autoconf'
+#brew 'autoconf'
 
 # TODO
-brew 'autoenv'
+#brew 'autoenv'
 
 # TODO
-brew 'autogen'
+#brew 'autogen'
 
 # TODO
-brew 'autojump'
+#brew 'autojump'
 
 # TODO
-brew 'base64'
+#brew 'base64'
 
 # TODO
-brew 'bind'
+#brew 'bind'
 
 # TODO
-brew 'bison'
+#brew 'bison'
 
 # TODO
-brew 'bogofilter'
+#brew 'bogofilter'
 
 # TODO
-brew 'colordiff'
+#brew 'colordiff'
 
 # TODO
-brew 'ctags'
+#brew 'ctags'
 
 # TODO
-brew 'docbook'
+#brew 'docbook'
 
 # TODO
-brew 'dovecot'
+#brew 'dovecot'
 
 # TODO
-brew 'dpkg'
+#brew 'dpkg'
 
 # TODO
-brew 'fakeroot'
+#brew 'fakeroot'
 
 # TODO
-brew 'findutils'
+#brew 'findutils'
 
 # TODO
-brew 'geoip'
+#brew 'geoip'
 
 # TODO
-brew 'gnu-barcode'
+#brew 'gnu-barcode'
 
 # TODO
-brew 'gnu-getopt'
+#brew 'gnu-getopt'
 
 # TODO
-brew 'gnu-indent'
+#brew 'gnu-indent'
 
 # TODO
-brew 'gnu-prolog'
+#brew 'gnu-prolog'
 
 # TODO
-brew 'gnu-smalltalk'
+#brew 'gnu-smalltalk'
 
 # TODO
-brew 'gnu-tar'
+#brew 'gnu-tar'
 
 # TODO
-brew 'gnu-time'
+#brew 'gnu-time'
 
 # TODO
-brew 'gnu-typist'
+#brew 'gnu-typist'
 
 # TODO
-brew 'gnu-units'
+#brew 'gnu-units'
 
 # TODO
-brew 'gnu-which'
+#brew 'gnu-which'
 
 # TODO
-brew 'google-app-engine'
+#brew 'google-app-engine'
 
 # TODO
-brew 'google-perftools'
+#brew 'google-perftools'
 
 # TODO
-brew 'google-sparsehash'
+#brew 'google-sparsehash'
 
 # TODO
-brew 'google-sql-tool'
+#brew 'google-sql-tool'
 
 # TODO
-brew 'html2text'
+#brew 'html2text'
 
 # TODO
 brew 'htop'
 
 # TODO
-brew 'httperf'
+brew 'packer'
 
 # TODO
-brew 'ical-buddy'
+brew 'minikube'
 
 # TODO
-brew 'jmeter'
+cask 'cakebrew'
 
 # TODO
-brew 'jpeg'
+cask 'drawio'
+
+# DiffMerge is an application to visually compare and merge files and folders.
+cask 'diffmerge'
 
 # TODO
-brew 'libdnet'
+#brew 'httperf'
 
 # TODO
-brew 'lzo'
+#brew 'ical-buddy'
 
 # TODO
-brew 'rarian'
+#brew 'jmeter'
 
 # TODO
-brew 'pixman'
+#brew 'jpeg'
+
+# TODO
+#brew 'libdnet'
+
+# TODO
+#brew 'lzo'
+
+# TODO
+#brew 'rarian'
+
+# TODO
+#brew 'pixman'
 
 # Tarsnap is a secure online backup service for Unix.
-brew 'tarsnap'
+#brew 'tarsnap'
 
 # Valkyrie is a Qt4-based GUI for the Memcheck and Helgrind tools in Valgrind.
 # Commented-out because it's currently incompatible with macOS 10.12.
 #brew 'valkyrie'
+
+##
+# IDE & Text Editors
+#
+# An integrated development environment (IDE) is a software application that provides
+# comprehensive facilities to computer programmers for software development.
+# An IDE normally consists of a source code editor, build automation tools, and a debugger.
+##
+
+# Visual Studio Code
+cask 'visual-studio-code'
 
 ###########################################################################
 #
@@ -1890,992 +1914,992 @@ brew 'tarsnap'
 #
 ##
 
-cask 'font-3270'
-cask 'font-abeezee'
-cask 'font-abel'
-cask 'font-aboriginal-sans'
-cask 'font-aboriginal-serif'
-cask 'font-abril-fatface'
-cask 'font-aclonica'
-cask 'font-acme'
-cask 'font-actor'
-cask 'font-adamina'
-cask 'font-adinatha-tamil-brahmi'
-cask 'font-advent-pro'
-cask 'font-african-sans'
-cask 'font-african-serif'
-cask 'font-aguafina-script'
-cask 'font-ahuramzda'
-cask 'font-aileron'
-cask 'font-akronim'
-cask 'font-aladin'
-cask 'font-aldrich'
-cask 'font-alef'
-cask 'font-aleo'
-cask 'font-alex-brush'
-cask 'font-alfa-slab-one'
-cask 'font-alice'
-cask 'font-alike-angular'
-cask 'font-alike'
-cask 'font-allan'
-cask 'font-allerta-stencil'
-cask 'font-allerta'
-cask 'font-allura'
-cask 'font-almendra-display'
-cask 'font-almendra-sc'
-cask 'font-almendra'
-cask 'font-amarante'
-cask 'font-amaranth'
-cask 'font-amatic-sc'
-cask 'font-amethysta'
-cask 'font-amiri'
-cask 'font-anaheim'
-cask 'font-andada-sc'
-cask 'font-andada'
-cask 'font-andagii'
-cask 'font-andale-mono'
-cask 'font-andika'
-cask 'font-angkor'
-cask 'font-anka-coder'
-cask 'font-annie-use-your-telescope'
-cask 'font-anonymice-powerline'
-cask 'font-anonymous-pro'
-cask 'font-antic-didone'
-cask 'font-antic-slab'
-cask 'font-antic'
-cask 'font-antinoou'
-cask 'font-anton'
-cask 'font-arapey'
-cask 'font-arbutus-slab'
-cask 'font-arbutus'
-cask 'font-architects-daughter'
-cask 'font-archivo-black'
-cask 'font-archivo-narrow'
-cask 'font-arial-black'
-cask 'font-arial'
-cask 'font-arimo'
-cask 'font-arizonia'
-cask 'font-armata'
-cask 'font-artifika'
-cask 'font-arvo'
-cask 'font-asap'
-cask 'font-asset'
-cask 'font-astloch'
-cask 'font-asul'
-cask 'font-atomic-age'
-cask 'font-aubrey'
-cask 'font-audiowide'
-cask 'font-autour-one'
-cask 'font-average-sans'
-cask 'font-average'
-cask 'font-averia-gruesa-libre'
-cask 'font-averia-libre'
-cask 'font-averia-sans-libre'
-cask 'font-averia-serif-libre'
-cask 'font-awesome-terminal-fonts'
-cask 'font-babelstone-han'
-cask 'font-bad-script'
-cask 'font-baloo'
-cask 'font-balthazar'
-cask 'font-bangers'
-cask 'font-baron'
-cask 'font-basic'
-cask 'font-battambang'
-cask 'font-baumans'
-cask 'font-bayon'
-cask 'font-belgrano'
-cask 'font-belleza'
-cask 'font-benchnine'
-cask 'font-bentham'
-cask 'font-berkshire-swash'
-cask 'font-bevan'
-cask 'font-bf-tiny-hand'
-cask 'font-bigelow-rules'
-cask 'font-bigshot-one'
-cask 'font-bilbo-swash-caps'
-cask 'font-bilbo'
-cask 'font-bitstream-vera'
-cask 'font-bitter'
-cask 'font-black-ops-one'
-cask 'font-blokk-neue'
-cask 'font-bokor'
-cask 'font-bonbon'
-cask 'font-boogaloo'
-cask 'font-bowlby-one-sc'
-cask 'font-bowlby-one'
-cask 'font-bravura'
-cask 'font-brawler'
-cask 'font-bree-serif'
-cask 'font-bubblegum-sans'
-cask 'font-bubbler-one'
-cask 'font-buda'
-cask 'font-buenard'
-cask 'font-bukyvede-bold'
-cask 'font-bukyvede-italic'
-cask 'font-bukyvede-regular'
-cask 'font-bungee'
-cask 'font-butcherman'
-cask 'font-butterfly-kids'
-cask 'font-cabin-condensed'
-cask 'font-cabin-sketch'
-cask 'font-cabin'
-cask 'font-caesar-dressing'
-cask 'font-cagliostro'
-cask 'font-calligraffitti'
-cask 'font-cambo'
-cask 'font-camingocode'
-cask 'font-candal'
-cask 'font-cantarell'
-cask 'font-cantata-one'
-cask 'font-cantora-one'
-cask 'font-capriola'
-cask 'font-cardo'
-cask 'font-carme'
-cask 'font-carrois-gothic-sc'
-cask 'font-carrois-gothic'
-cask 'font-carter-one'
-cask 'font-caudex'
-cask 'font-cedarville-cursive'
-cask 'font-ceviche-one'
-cask 'font-changa-one'
-cask 'font-chango'
-cask 'font-chapbook'
-cask 'font-charis-sil'
-cask 'font-charter'
-cask 'font-chau-philomene-one'
-cask 'font-chela-one'
-cask 'font-chelsea-market'
-cask 'font-chenla'
-cask 'font-cherry-cream-soda'
-cask 'font-cherry-swash'
-cask 'font-chewy'
-cask 'font-chicle'
-cask 'font-chivo'
-cask 'font-cinzel-decorative'
-cask 'font-cinzel'
-cask 'font-clear-sans'
-cask 'font-clicker-script'
-cask 'font-coda-caption'
-cask 'font-coda'
-cask 'font-code'
-cask 'font-code2000'
-cask 'font-code2001'
-cask 'font-code2002'
-cask 'font-codystar'
-cask 'font-combo'
-cask 'font-comfortaa'
-cask 'font-comic-neue'
-cask 'font-comic-sans-ms'
-cask 'font-coming-soon'
-cask 'font-computer-modern'
-cask 'font-conakry'
-cask 'font-concert-one'
-cask 'font-condiment'
-cask 'font-consolas-for-powerline'
-cask 'font-constructium'
-cask 'font-content'
-cask 'font-contrail-one'
-cask 'font-convergence'
-cask 'font-cookie'
-cask 'font-copse'
-cask 'font-corben'
-cask 'font-courgette'
-cask 'font-courier-new'
-cask 'font-courier-prime'
-cask 'font-cousine'
-cask 'font-coustard'
-cask 'font-covered-by-your-grace'
-cask 'font-crafty-girls'
-cask 'font-creepster'
-cask 'font-crete-round'
-cask 'font-crimson-text'
-cask 'font-croissant-one'
-cask 'font-crushed'
-cask 'font-cuprum'
-cask 'font-cutive-mono'
-cask 'font-cutive'
-cask 'font-cwtex-q'
-cask 'font-d2coding'
-cask 'font-damion'
-cask 'font-dancing-script'
-cask 'font-dangrek'
-cask 'font-dashicons'
-cask 'font-dawning-of-a-new-day'
-cask 'font-days-one'
-cask 'font-dejavu-sans-mono-for-powerline'
-cask 'font-dejavu-sans'
-cask 'font-delius-swash-caps'
-cask 'font-delius-unicase'
-cask 'font-delius'
-cask 'font-della-respira'
-cask 'font-denk-one'
-cask 'font-devicons'
-cask 'font-devonshire'
-cask 'font-dhyana'
-cask 'font-didact-gothic'
-cask 'font-digohweli-old-do'
-cask 'font-digohweli'
-cask 'font-diplomata-sc'
-cask 'font-diplomata'
-cask 'font-disclaimer'
-cask 'font-domine'
-cask 'font-donegal-one'
-cask 'font-doppio-one'
-cask 'font-dorsa'
-cask 'font-dosis'
-cask 'font-dr-sugiyama'
-cask 'font-droid-sans-mono-for-powerline'
-cask 'font-droidsansmono-nerd-font'
-cask 'font-droidsansmono-nerd-font-mono'
-cask 'font-dukor'
-cask 'font-duru-sans'
-cask 'font-dynalight'
-cask 'font-eagle-lake'
-cask 'font-eater'
-cask 'font-eb-garamond'
-cask 'font-economica'
-cask 'font-edlo'
-cask 'font-eeyek-unicode'
-cask 'font-electrolize'
-cask 'font-elsie-swash-caps'
-cask 'font-elsie'
-cask 'font-emblema-one'
-cask 'font-emilys-candy'
-cask 'font-engagement'
-cask 'font-englebert'
-cask 'font-enriqueta'
-cask 'font-erica-one'
-cask 'font-esteban'
-cask 'font-et-book'
-cask 'font-euphoria-script'
-cask 'font-everson-mono'
-cask 'font-ewert'
-cask 'font-exo'
-cask 'font-exo2'
-cask 'font-expletus-sans'
-cask 'font-ezra-sil'
-cask 'font-fairfax'
-cask 'font-fantasque-sans-mono'
-cask 'font-fanwood-text'
-cask 'font-fascinate-inline'
-cask 'font-fascinate'
-cask 'font-faster-one'
-cask 'font-fasthand'
-cask 'font-fauna-one'
-cask 'font-federant'
-cask 'font-federo'
-cask 'font-felipa'
-cask 'font-fenix'
-cask 'font-finger-paint'
-cask 'font-fira-code'
-cask 'font-fira-mono-for-powerline'
-cask 'font-fira-mono'
-cask 'font-fira-sans'
-cask 'font-firacode-nerd-font-mono'
-cask 'font-firacode-nerd-font'
-cask 'font-fjalla-one'
-cask 'font-fjord-one'
-cask 'font-flamenco'
-cask 'font-flavors'
-cask 'font-fondamento'
-cask 'font-fontawesome'
-cask 'font-fontdiner-swanky'
-cask 'font-forum'
-cask 'font-foundation-icons'
-cask 'font-francois-one'
-cask 'font-freckle-face'
-cask 'font-fredericka-the-great'
-cask 'font-fredoka-one'
-cask 'font-free-hk-kai'
-cask 'font-freehand'
-cask 'font-freesans'
-cask 'font-fresca'
-cask 'font-frijole'
-cask 'font-fruktur'
-cask 'font-fugaz-one'
-cask 'font-gabriela'
-cask 'font-gafata'
-cask 'font-galdeano'
-cask 'font-galindo'
-cask 'font-gandom'
-cask 'font-genjyuugothic-l'
-cask 'font-genjyuugothic-x'
-cask 'font-genjyuugothic'
-cask 'font-genshingothic'
-cask 'font-gentium-basic'
-cask 'font-gentium-book-basic'
-cask 'font-gentium-plus'
-cask 'font-geo'
-cask 'font-georgia'
-cask 'font-geostar-fill'
-cask 'font-geostar'
-cask 'font-germania-one'
-cask 'font-gfs-didot'
-cask 'font-gfs-neohellenic'
-cask 'font-gidole'
-cask 'font-gilda-display'
-cask 'font-give-you-glory'
-cask 'font-glass-antiqua'
-cask 'font-glegoo'
-cask 'font-glober'
-cask 'font-gloria-hallelujah'
-cask 'font-gnu-unifont'
-cask 'font-go-medium'
-cask 'font-go-mono'
-cask 'font-go'
-cask 'font-goblin-one'
-cask 'font-gochi-hand'
-cask 'font-gorditas'
-cask 'font-goudy-bookletter1911'
-cask 'font-graduate'
-cask 'font-grand-hotel'
-cask 'font-gravitas-one'
-cask 'font-great-vibes'
-cask 'font-griffy'
-cask 'font-gruppo'
-cask 'font-gudea'
-cask 'font-habibi'
-cask 'font-hack-nerd-font'
-cask 'font-halant'
-cask 'font-hammersmith-one'
-cask 'font-han-nom-a'
-cask 'font-hanalei-fill'
-cask 'font-hanalei'
-cask 'font-hanamina'
-cask 'font-handlee'
-cask 'font-hanuman'
-cask 'font-happy-monkey'
-cask 'font-hasklig'
-cask 'font-headland-one'
-cask 'font-henny-penny'
-cask 'font-hermit'
-cask 'font-herr-von-muellerhoff'
-cask 'font-hind'
-cask 'font-holtwood-one-sc'
-cask 'font-homemade-apple'
-cask 'font-homenaje'
-cask 'font-hyppolit'
-cask 'font-iceberg'
-cask 'font-iceland'
-cask 'font-icomoon'
-cask 'font-idealist-sans'
-cask 'font-impact'
-cask 'font-imprima'
-cask 'font-inconsolata-dz-for-powerline'
-cask 'font-inconsolata-dz'
-cask 'font-inconsolata-for-powerline'
-cask 'font-inconsolata-g-for-powerline'
-cask 'font-inconsolata-lgc'
-cask 'font-inconsolata'
-cask 'font-inder'
-cask 'font-indie-flower'
-cask 'font-inika'
-cask 'font-input'
-cask 'font-ionicons'
-cask 'font-iosevka'
-cask 'font-iranian-sans'
-cask 'font-iranian-serif'
-cask 'font-irish-grover'
-cask 'font-istok-web'
-cask 'font-italiana'
-cask 'font-italianno'
-cask 'font-jaapokki'
-cask 'font-jacques-francois-shadow'
-cask 'font-jacques-francois'
-cask 'font-jim-nightshade'
-cask 'font-jockey-one'
-cask 'font-jolly-lodger'
-cask 'font-josefin-sans'
-cask 'font-josefin-slab'
-cask 'font-joti-one'
-cask 'font-jsmath-cmbx10'
-cask 'font-judson'
-cask 'font-julee'
-cask 'font-julius-sans-one'
-cask 'font-junge'
-cask 'font-junicode'
-cask 'font-jura'
-cask 'font-just-another-hand'
-cask 'font-just-me-again-down-here'
-cask 'font-kacstone'
-cask 'font-kalam'
-cask 'font-kameron'
-cask 'font-kantumruy'
-cask 'font-karla-tamil-inclined'
-cask 'font-karla-tamil-upright'
-cask 'font-karla'
-cask 'font-karma'
-cask 'font-kaushan-script'
-cask 'font-kavoon'
-cask 'font-kawkab-mono'
-cask 'font-kayases'
-cask 'font-kdam-thmor'
-cask 'font-keania-one'
-cask 'font-keep-calm'
-cask 'font-kelly-slab'
-cask 'font-kenia'
-cask 'font-khand'
-cask 'font-khmer'
-cask 'font-kisiska'
-cask 'font-kite-one'
-cask 'font-knewave'
-cask 'font-koruri'
-cask 'font-kotta-one'
-cask 'font-koulen'
-cask 'font-kranky'
-cask 'font-kreon'
-cask 'font-kristi'
-cask 'font-krona-one'
-cask 'font-la-belle-aurore'
-cask 'font-laila'
-cask 'font-lalezar'
-cask 'font-lancelot'
-cask 'font-lateef'
-cask 'font-latin-modern-math'
-cask 'font-latin-modern'
-cask 'font-lato'
-cask 'font-league-gothic'
-cask 'font-league-script'
-cask 'font-league-spartan'
-cask 'font-leckerli-one'
-cask 'font-ledger'
-cask 'font-lekton'
-cask 'font-lemon'
-cask 'font-liberation-mono-for-powerline'
-cask 'font-liberation-sans'
-cask 'font-libertinus'
-cask 'font-libre-baskerville'
-cask 'font-libre-caslon-text'
-cask 'font-libre-franklin'
-cask 'font-life-savers'
-cask 'font-ligature-symbols'
-cask 'font-lilita-one'
-cask 'font-lily-script-one'
-cask 'font-limelight'
-cask 'font-linden-hill'
-cask 'font-linux-biolinum'
-cask 'font-linux-libertine'
-cask 'font-lobster-two'
-cask 'font-lobster'
-cask 'font-londrina-outline'
-cask 'font-londrina-shadow'
-cask 'font-londrina-sketch'
-cask 'font-londrina-solid'
-cask 'font-lora'
-cask 'font-love-ya-like-a-sister'
-cask 'font-loved-by-the-king'
-cask 'font-lovers-quarrel'
-cask 'font-luckiest-guy'
-cask 'font-luculent'
-cask 'font-lusitana'
-cask 'font-lustria'
-cask 'font-m-plus'
-cask 'font-macondo-swash-caps'
-cask 'font-macondo'
-cask 'font-magra'
-cask 'font-maiden-orange'
-cask 'font-mako'
-cask 'font-marcellus-sc'
-cask 'font-marcellus'
-cask 'font-marck-script'
-cask 'font-margarine'
-cask 'font-marko-one'
-cask 'font-marmelad'
-cask 'font-marta'
-cask 'font-marvel'
-cask 'font-masinahikan-dene'
-cask 'font-masinahikan'
-cask 'font-mate-sc'
-cask 'font-mate'
-cask 'font-material-icons'
-cask 'font-materialdesignicons-webfont'
-cask 'font-maven-pro'
-cask 'font-mclaren'
-cask 'font-meddon'
-cask 'font-medievalsharp'
-cask 'font-medula-one'
-cask 'font-megrim'
-cask 'font-meie-script'
-cask 'font-menlo-for-powerline'
-cask 'font-merienda-one'
-cask 'font-merienda'
-cask 'font-merriweather-sans'
-cask 'font-merriweather'
-cask 'font-metal-mania'
-cask 'font-metal'
-cask 'font-metamorphous'
-cask 'font-metrophobic'
-cask 'font-mfizz'
-cask 'font-miao-unicode'
-cask 'font-michroma'
-cask 'font-migmix-1m'
-cask 'font-migmix-1p'
-cask 'font-migmix-2m'
-cask 'font-migmix-2p'
-cask 'font-migu-1c'
-cask 'font-migu-1m'
-cask 'font-migu-1p'
-cask 'font-migu-2m'
-cask 'font-milonga'
-cask 'font-miltonian-tattoo'
-cask 'font-miltonian'
-cask 'font-miniver'
-cask 'font-miss-fajardose'
-cask 'font-modern-antiqua'
-cask 'font-molengo'
-cask 'font-molle'
-cask 'font-monda'
-cask 'font-monofett'
-cask 'font-monofur-for-powerline'
-cask 'font-monoid'
-cask 'font-monoisome'
-cask 'font-mononoki'
-cask 'font-monoton'
-cask 'font-monsieur-la-doulaise'
-cask 'font-montaga'
-cask 'font-montez'
-cask 'font-montserrat-subrayada'
-cask 'font-montserrat'
-cask 'font-moul'
-cask 'font-moulpali'
-cask 'font-mountains-of-christmas'
-cask 'font-mouse-memoirs'
-cask 'font-mr-bedfort'
-cask 'font-mr-dafoe'
-cask 'font-mr-de-haviland'
-cask 'font-mrs-saint-delafield'
-cask 'font-mrs-sheppards'
-cask 'font-mukti-narrow'
-cask 'font-muli'
-cask 'font-myrica'
-cask 'font-myricam'
-cask 'font-mystery-quest'
-cask 'font-n-gage'
-cask 'font-namdhinggo-sil'
-cask 'font-nanumgothic'
-cask 'font-nanumgothiccoding'
-cask 'font-nanummyeongjo'
-cask 'font-neucha'
-cask 'font-neuton'
-cask 'font-new-athena-unicode'
-cask 'font-new-rocker'
-cask 'font-news-cycle'
-cask 'font-nexa'
-cask 'font-niconne'
-cask 'font-nika'
-cask 'font-nixie-one'
-cask 'font-nobile'
-cask 'font-nokora'
-cask 'font-norican'
-cask 'font-norwester'
-cask 'font-nosifer'
-cask 'font-nothing-you-could-do'
-cask 'font-noticia-text'
-cask 'font-noto-color-emoji'
-cask 'font-noto-emoji'
-cask 'font-noto-kufi-arabic'
-cask 'font-noto-mono'
-cask 'font-noto-naskh-arabic'
-cask 'font-noto-nastaliq-urdu'
-cask 'font-noto-sans-armenian'
-cask 'font-noto-sans-avestan'
-cask 'font-noto-sans-balinese'
-cask 'font-noto-sans-bamum'
-cask 'font-noto-sans-batak'
-cask 'font-noto-sans-bengali'
-cask 'font-noto-sans-brahmi'
-cask 'font-noto-sans-buginese'
-cask 'font-noto-sans-buhid'
-cask 'font-noto-sans-canadian-aboriginal'
-cask 'font-noto-sans-carian'
-cask 'font-noto-sans-cham'
-cask 'font-noto-sans-cherokee'
-cask 'font-noto-sans-cjk-jp'
-cask 'font-noto-sans-cjk-kr'
-cask 'font-noto-sans-cjk-sc'
-cask 'font-noto-sans-cjk-tc'
-cask 'font-noto-sans-cjk'
-cask 'font-noto-sans-coptic'
-cask 'font-noto-sans-cuneiform'
-cask 'font-noto-sans-cypriot'
-cask 'font-noto-sans-deseret'
-cask 'font-noto-sans-devanagari'
-cask 'font-noto-sans-egyptian-hieroglyphs'
-cask 'font-noto-sans-ethiopic'
-cask 'font-noto-sans-georgian'
-cask 'font-noto-sans-glagolitic'
-cask 'font-noto-sans-gothic'
-cask 'font-noto-sans-gujarati'
-cask 'font-noto-sans-gurmukhi'
-cask 'font-noto-sans-hanunoo'
-cask 'font-noto-sans-imperial-aramaic'
-cask 'font-noto-sans-inscriptional-pahlavi'
-cask 'font-noto-sans-inscriptional-parthian'
-cask 'font-noto-sans-javanese'
-cask 'font-noto-sans-kaithi'
-cask 'font-noto-sans-kannada'
-cask 'font-noto-sans-kayah-li'
-cask 'font-noto-sans-kharoshthi'
-cask 'font-noto-sans-khmer'
-cask 'font-noto-sans-lao'
-cask 'font-noto-sans-lepcha'
-cask 'font-noto-sans-limbu'
-cask 'font-noto-sans-linear-b'
-cask 'font-noto-sans-lisu'
-cask 'font-noto-sans-lycian'
-cask 'font-noto-sans-lydian'
-cask 'font-noto-sans-malayalam'
-cask 'font-noto-sans-mandaic'
-cask 'font-noto-sans-meetei-mayek'
-cask 'font-noto-sans-mongolian'
-cask 'font-noto-sans-myanmar'
-cask 'font-noto-sans-n-ko'
-cask 'font-noto-sans-new-tai-lue'
-cask 'font-noto-sans-ogham'
-cask 'font-noto-sans-ol-chiki'
-cask 'font-noto-sans-old-italic'
-cask 'font-noto-sans-old-persian'
-cask 'font-noto-sans-old-south-arabian'
-cask 'font-noto-sans-old-turkic'
-cask 'font-noto-sans-oriya'
-cask 'font-noto-sans-osmanya'
-cask 'font-noto-sans-phags-pa'
-cask 'font-noto-sans-phoenician'
-cask 'font-noto-sans-rejang'
-cask 'font-noto-sans-runic'
-cask 'font-noto-sans-samaritan'
-cask 'font-noto-sans-saurashtra'
-cask 'font-noto-sans-shavian'
-cask 'font-noto-sans-sinhala'
-cask 'font-noto-sans-sundanese'
-cask 'font-noto-sans-syloti-nagri'
-cask 'font-noto-sans-symbols'
-cask 'font-noto-sans-syriac-eastern'
-cask 'font-noto-sans-syriac-estrangela'
-cask 'font-noto-sans-syriac-western'
-cask 'font-noto-sans-tagalog'
-cask 'font-noto-sans-tagbanwa'
-cask 'font-noto-sans-tai-le'
-cask 'font-noto-sans-tai-tham'
-cask 'font-noto-sans-tai-viet'
-cask 'font-noto-sans-tamil'
-cask 'font-noto-sans-telugu'
-cask 'font-noto-sans-thaana'
-cask 'font-noto-sans-thai'
-cask 'font-noto-sans-tibetan'
-cask 'font-noto-sans-tifinagh'
-cask 'font-noto-sans-ugaritic'
-cask 'font-noto-sans-vai'
-cask 'font-noto-sans-yi'
-cask 'font-noto-sans'
-cask 'font-noto-serif-armenian'
-cask 'font-noto-serif-georgian'
-cask 'font-noto-serif-khmer'
-cask 'font-noto-serif-lao'
-cask 'font-noto-serif-thai'
-cask 'font-noto-serif'
-cask 'font-nova-cut'
-cask 'font-nova-flat'
-cask 'font-nova-mono'
-cask 'font-nova-oval'
-cask 'font-nova-round'
-cask 'font-nova-script'
-cask 'font-nova-slim'
-cask 'font-nova-square'
-cask 'font-numans'
-cask 'font-nunito'
-cask 'font-odor-mean-chey'
-cask 'font-office-code-pro'
-cask 'font-offside'
-cask 'font-old-standard-tt'
-cask 'font-oldenburg'
-cask 'font-oleo-script-swash-caps'
-cask 'font-oleo-script'
-cask 'font-open-iconic'
-cask 'font-open-sans-condensed'
-cask 'font-open-sans'
-cask 'font-opendyslexic'
-cask 'font-oranienbaum'
-cask 'font-orbitron'
-cask 'font-oregano'
-cask 'font-orienta'
-cask 'font-original-surfer'
-cask 'font-oskiblackfoot'
-cask 'font-oskidakelh'
-cask 'font-oskidenea'
-cask 'font-oskideneb'
-cask 'font-oskidenec'
-cask 'font-oskidenes'
-cask 'font-oskieast'
-cask 'font-oskiwest'
-cask 'font-oswald'
-cask 'font-over-the-rainbow'
-cask 'font-overlock-sc'
-cask 'font-overlock'
-cask 'font-overpass'
-cask 'font-ovo'
-cask 'font-oxygen-mono'
-cask 'font-oxygen'
-cask 'font-pacifico'
-cask 'font-padauk'
-cask 'font-palemonas'
-cask 'font-paprika'
-cask 'font-parastoo'
-cask 'font-parisienne'
-cask 'font-passero-one'
-cask 'font-passion-one'
-cask 'font-pathway-gothic-one'
-cask 'font-patrick-hand-sc'
-cask 'font-patrick-hand'
-cask 'font-patua-one'
-cask 'font-paytone-one'
-cask 'font-penuturesu'
-cask 'font-peralta'
-cask 'font-permanent-marker'
-cask 'font-petit-formal-script'
-cask 'font-petrona'
-cask 'font-phetsarath'
-cask 'font-philosopher'
-cask 'font-piedra'
-cask 'font-pinyon-script'
-cask 'font-pirata-one'
-cask 'font-pitabek'
-cask 'font-plaster'
-cask 'font-play'
-cask 'font-playball'
-cask 'font-playfair-display-sc'
-cask 'font-playfair-display'
-cask 'font-podkova'
-cask 'font-poiret-one'
-cask 'font-poller-one'
-cask 'font-poly'
-cask 'font-pompiere'
-cask 'font-pontano-sans'
-cask 'font-poppins'
-cask 'font-port-lligat-sans'
-cask 'font-port-lligat-slab'
-cask 'font-prata'
-cask 'font-preahvihear'
-cask 'font-press-start2p'
-cask 'font-prime'
-cask 'font-prince-valiant'
-cask 'font-princess-sofia'
-cask 'font-prociono'
-cask 'font-profontx'
-cask 'font-prosto-one'
-cask 'font-pt-mono'
-cask 'font-pt-sans'
-cask 'font-pt-serif'
-cask 'font-puritan'
-cask 'font-purple-purse'
-cask 'font-qataban'
-cask 'font-quando'
-cask 'font-quantico'
-cask 'font-quattrocento-sans'
-cask 'font-quattrocento'
-cask 'font-questrial'
-cask 'font-quicksand'
-cask 'font-quintessential'
-cask 'font-quivira'
-cask 'font-qwigley'
-cask 'font-racing-sans-one'
-cask 'font-radley'
-cask 'font-rajdhani'
-cask 'font-raleway-dots'
-cask 'font-raleway'
-cask 'font-rambla'
-cask 'font-rammetto-one'
-cask 'font-ranchers'
-cask 'font-rancho'
-cask 'font-rationale'
-cask 'font-redacted'
-cask 'font-redressed'
-cask 'font-reenie-beanie'
-cask 'font-revalia'
-cask 'font-ribeye-marrow'
-cask 'font-ribeye'
-cask 'font-ricty-diminished'
-cask 'font-righteous'
-cask 'font-risque'
-cask 'font-roboto-condensed'
-cask 'font-roboto-mono-for-powerline'
-cask 'font-roboto-mono'
-cask 'font-roboto-slab'
-cask 'font-roboto'
-cask 'font-rochester'
-cask 'font-rock-salt'
-cask 'font-rokkitt'
-cask 'font-romanesco'
-cask 'font-ropa-sans'
-cask 'font-rosario'
-cask 'font-rosarivo'
-cask 'font-rotinonhsonni-sans'
-cask 'font-rotinonhsonni-serif'
-cask 'font-rouge-script'
-cask 'font-rounded-m-plus'
-cask 'font-rozha-one'
-cask 'font-ruda'
-cask 'font-rufina'
-cask 'font-ruge-boogie'
-cask 'font-ruluko'
-cask 'font-rum-raisin'
-cask 'font-rupakara'
-cask 'font-ruslan-display'
-cask 'font-russo-one'
-cask 'font-ruthie'
-cask 'font-rye'
-cask 'font-sacramento'
-cask 'font-sadagolthina'
-cask 'font-sail'
-cask 'font-salsa'
-cask 'font-samim'
-cask 'font-sanchez'
-cask 'font-sancreek'
-cask 'font-sansita-one'
-cask 'font-sarina'
-cask 'font-sarpanch'
-cask 'font-satisfy'
-cask 'font-scada'
-cask 'font-scheherazade'
-cask 'font-schoolbell'
-cask 'font-seaweed-script'
-cask 'font-sevillana'
-cask 'font-seymour-one'
-cask 'font-shabnam'
-cask 'font-shadows-into-light-two'
-cask 'font-shadows-into-light'
-cask 'font-shanti'
-cask 'font-share-tech-mono'
-cask 'font-share-tech'
-cask 'font-share'
-cask 'font-shojumaru'
-cask 'font-short-stack'
-cask 'font-siemreap'
-cask 'font-sigmar-one'
-cask 'font-signika-negative'
-cask 'font-silent-lips'
-cask 'font-simonetta'
-cask 'font-sinkin-sans'
-cask 'font-sintony'
-cask 'font-sirin-stencil'
-cask 'font-six-caps'
-cask 'font-skranji'
-cask 'font-slackey'
-cask 'font-smokum'
-cask 'font-smythe'
-cask 'font-sniglet'
-cask 'font-snippet'
-cask 'font-snowburst-one'
-cask 'font-sofadi-one'
-cask 'font-sofia'
-cask 'font-sonsie-one'
-cask 'font-sorts-mill-goudy'
-cask 'font-source-code-pro-for-powerline'
-cask 'font-source-code-pro'
-cask 'font-source-han-code-jp'
-cask 'font-source-han-sans'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
-cask 'font-space-mono'
-cask 'font-special-elite'
-cask 'font-spicy-rice'
-cask 'font-spinnaker'
-cask 'font-spirax'
-cask 'font-squada-one'
-cask 'font-stalemate'
-cask 'font-stalinist-one'
-cask 'font-stardos-stencil'
-cask 'font-stint-ultra-condensed'
-cask 'font-stint-ultra-expanded'
-cask 'font-stoke'
-cask 'font-strait'
-cask 'font-sue-ellen-francisco'
-cask 'font-sunshiney'
-cask 'font-supermercado-one'
-cask 'font-swanky-and-moo-moo'
-cask 'font-symbola'
-cask 'font-syncopate'
-cask 'font-tai-le-valentinium'
-cask 'font-takaoex'
-cask 'font-tangerine'
-cask 'font-taprom'
-cask 'font-tauri'
-cask 'font-teko'
-cask 'font-telex'
-cask 'font-tenor-sans'
-cask 'font-terminus'
-cask 'font-tex-gyre-adventor'
-cask 'font-tex-gyre-bonum'
-cask 'font-tex-gyre-chorus'
-cask 'font-tex-gyre-cursor'
-cask 'font-tex-gyre-heros'
-cask 'font-tex-gyre-pagella-math'
-cask 'font-tex-gyre-pagella'
-cask 'font-tex-gyre-schola'
-cask 'font-tex-gyre-termes'
-cask 'font-text-me-one'
-cask 'font-thabit'
-cask 'font-the-girl-next-door'
-cask 'font-tibetan-machine-uni'
-cask 'font-tienne'
-cask 'font-tillana'
-cask 'font-times-new-roman'
-cask 'font-tinos'
-cask 'font-titan-one'
-cask 'font-trade-winds'
-cask 'font-trebuchet-ms'
-cask 'font-trocchi'
-cask 'font-trochut'
-cask 'font-trykker'
-cask 'font-tuffy'
-cask 'font-tulpen-one'
-cask 'font-twitter-color-emoji'
-cask 'font-ubuntu-mono-derivative-powerline'
-cask 'font-ubuntu'
-cask 'font-ultra'
-cask 'font-uncial-antiqua'
-cask 'font-underdog'
-cask 'font-unica-one'
-cask 'font-unifrakturcook'
-cask 'font-unifrakturmaguntia'
-cask 'font-unkempt'
-cask 'font-unlock'
-cask 'font-unna'
-cask 'font-vampiro-one'
-cask 'font-varela-round'
-cask 'font-varela'
-cask 'font-vast-shadow'
-cask 'font-vazir-code'
-cask 'font-vazir'
-cask 'font-verdana'
-cask 'font-vibur'
-cask 'font-vidaloka'
-cask 'font-viga'
-cask 'font-voces'
-cask 'font-volkhov'
-cask 'font-vollkorn'
-cask 'font-voltaire'
-cask 'font-vt323'
-cask 'font-waiting-for-the-sunrise'
-cask 'font-wakor'
-cask 'font-wallpoet'
-cask 'font-walter-turncoat'
-cask 'font-waltograph'
-cask 'font-warnes'
-cask 'font-webdings'
-cask 'font-wellfleet'
-cask 'font-wendy-one'
-cask 'font-wenquanyi-micro-hei-lite'
-cask 'font-wenquanyi-micro-hei'
-cask 'font-wenquanyi-zen-hei'
-cask 'font-wire-one'
-cask 'font-work-sans'
-cask 'font-xits'
-cask 'font-yanone-kaffeesatz'
-cask 'font-yellowtail'
-cask 'font-yeseva-one'
-cask 'font-yesteryear'
-cask 'font-zeyada'
+#cask 'font-3270'
+#cask 'font-abeezee'
+#cask 'font-abel'
+#cask 'font-aboriginal-sans'
+#cask 'font-aboriginal-serif'
+#cask 'font-abril-fatface'
+#cask 'font-aclonica'
+#cask 'font-acme'
+#cask 'font-actor'
+#cask 'font-adamina'
+#cask 'font-adinatha-tamil-brahmi'
+#cask 'font-advent-pro'
+#cask 'font-african-sans'
+#cask 'font-african-serif'
+#cask 'font-aguafina-script'
+#cask 'font-ahuramzda'
+#cask 'font-aileron'
+#cask 'font-akronim'
+#cask 'font-aladin'
+#cask 'font-aldrich'
+#cask 'font-alef'
+#cask 'font-aleo'
+#cask 'font-alex-brush'
+#cask 'font-alfa-slab-one'
+#cask 'font-alice'
+#cask 'font-alike-angular'
+#cask 'font-alike'
+#cask 'font-allan'
+#cask 'font-allerta-stencil'
+#cask 'font-allerta'
+#cask 'font-allura'
+#cask 'font-almendra-display'
+#cask 'font-almendra-sc'
+#cask 'font-almendra'
+#cask 'font-amarante'
+#cask 'font-amaranth'
+#cask 'font-amatic-sc'
+#cask 'font-amethysta'
+#cask 'font-amiri'
+#cask 'font-anaheim'
+#cask 'font-andada-sc'
+#cask 'font-andada'
+#cask 'font-andagii'
+#cask 'font-andale-mono'
+#cask 'font-andika'
+#cask 'font-angkor'
+#cask 'font-anka-coder'
+#cask 'font-annie-use-your-telescope'
+#cask 'font-anonymice-powerline'
+#cask 'font-anonymous-pro'
+#cask 'font-antic-didone'
+#cask 'font-antic-slab'
+#cask 'font-antic'
+#cask 'font-antinoou'
+#cask 'font-anton'
+#cask 'font-arapey'
+#cask 'font-arbutus-slab'
+#cask 'font-arbutus'
+#cask 'font-architects-daughter'
+#cask 'font-archivo-black'
+#cask 'font-archivo-narrow'
+#cask 'font-arial-black'
+#cask 'font-arial'
+#cask 'font-arimo'
+#cask 'font-arizonia'
+#cask 'font-armata'
+#cask 'font-artifika'
+#cask 'font-arvo'
+#cask 'font-asap'
+#cask 'font-asset'
+#cask 'font-astloch'
+#cask 'font-asul'
+#cask 'font-atomic-age'
+#cask 'font-aubrey'
+#cask 'font-audiowide'
+#cask 'font-autour-one'
+#cask 'font-average-sans'
+#cask 'font-average'
+#cask 'font-averia-gruesa-libre'
+#cask 'font-averia-libre'
+#cask 'font-averia-sans-libre'
+#cask 'font-averia-serif-libre'
+#cask 'font-awesome-terminal-fonts'
+#cask 'font-babelstone-han'
+#cask 'font-bad-script'
+#cask 'font-baloo'
+#cask 'font-balthazar'
+#cask 'font-bangers'
+#cask 'font-baron'
+#cask 'font-basic'
+#cask 'font-battambang'
+#cask 'font-baumans'
+#cask 'font-bayon'
+#cask 'font-belgrano'
+#cask 'font-belleza'
+#cask 'font-benchnine'
+#cask 'font-bentham'
+#cask 'font-berkshire-swash'
+#cask 'font-bevan'
+#cask 'font-bf-tiny-hand'
+#cask 'font-bigelow-rules'
+#cask 'font-bigshot-one'
+#cask 'font-bilbo-swash-caps'
+#cask 'font-bilbo'
+#cask 'font-bitstream-vera'
+#cask 'font-bitter'
+#cask 'font-black-ops-one'
+#cask 'font-blokk-neue'
+#cask 'font-bokor'
+#cask 'font-bonbon'
+#cask 'font-boogaloo'
+#cask 'font-bowlby-one-sc'
+#cask 'font-bowlby-one'
+#cask 'font-bravura'
+#cask 'font-brawler'
+#cask 'font-bree-serif'
+#cask 'font-bubblegum-sans'
+#cask 'font-bubbler-one'
+#cask 'font-buda'
+#cask 'font-buenard'
+#cask 'font-bukyvede-bold'
+#cask 'font-bukyvede-italic'
+#cask 'font-bukyvede-regular'
+#cask 'font-bungee'
+#cask 'font-butcherman'
+#cask 'font-butterfly-kids'
+#cask 'font-cabin-condensed'
+#cask 'font-cabin-sketch'
+#cask 'font-cabin'
+#cask 'font-caesar-dressing'
+#cask 'font-cagliostro'
+#cask 'font-calligraffitti'
+#cask 'font-cambo'
+#cask 'font-camingocode'
+#cask 'font-candal'
+#cask 'font-cantarell'
+#cask 'font-cantata-one'
+#cask 'font-cantora-one'
+#cask 'font-capriola'
+#cask 'font-cardo'
+#cask 'font-carme'
+#cask 'font-carrois-gothic-sc'
+#cask 'font-carrois-gothic'
+#cask 'font-carter-one'
+#cask 'font-caudex'
+#cask 'font-cedarville-cursive'
+#cask 'font-ceviche-one'
+#cask 'font-changa-one'
+#cask 'font-chango'
+#cask 'font-chapbook'
+#cask 'font-charis-sil'
+#cask 'font-charter'
+#cask 'font-chau-philomene-one'
+#cask 'font-chela-one'
+#cask 'font-chelsea-market'
+#cask 'font-chenla'
+#cask 'font-cherry-cream-soda'
+#cask 'font-cherry-swash'
+#cask 'font-chewy'
+#cask 'font-chicle'
+#cask 'font-chivo'
+#cask 'font-cinzel-decorative'
+#cask 'font-cinzel'
+#cask 'font-clear-sans'
+#cask 'font-clicker-script'
+#cask 'font-coda-caption'
+#cask 'font-coda'
+#cask 'font-code'
+#cask 'font-code2000'
+#cask 'font-code2001'
+#cask 'font-code2002'
+#cask 'font-codystar'
+#cask 'font-combo'
+#cask 'font-comfortaa'
+#cask 'font-comic-neue'
+#cask 'font-comic-sans-ms'
+#cask 'font-coming-soon'
+#cask 'font-computer-modern'
+#cask 'font-conakry'
+#cask 'font-concert-one'
+#cask 'font-condiment'
+#cask 'font-consolas-for-powerline'
+#cask 'font-constructium'
+#cask 'font-content'
+#cask 'font-contrail-one'
+#cask 'font-convergence'
+#cask 'font-cookie'
+#cask 'font-copse'
+#cask 'font-corben'
+#cask 'font-courgette'
+#cask 'font-courier-new'
+#cask 'font-courier-prime'
+#cask 'font-cousine'
+#cask 'font-coustard'
+#cask 'font-covered-by-your-grace'
+#cask 'font-crafty-girls'
+#cask 'font-creepster'
+#cask 'font-crete-round'
+#cask 'font-crimson-text'
+#cask 'font-croissant-one'
+#cask 'font-crushed'
+#cask 'font-cuprum'
+#cask 'font-cutive-mono'
+#cask 'font-cutive'
+#cask 'font-cwtex-q'
+#cask 'font-d2coding'
+#cask 'font-damion'
+#cask 'font-dancing-script'
+#cask 'font-dangrek'
+#cask 'font-dashicons'
+#cask 'font-dawning-of-a-new-day'
+#cask 'font-days-one'
+#cask 'font-dejavu-sans-mono-for-powerline'
+#cask 'font-dejavu-sans'
+#cask 'font-delius-swash-caps'
+#cask 'font-delius-unicase'
+#cask 'font-delius'
+#cask 'font-della-respira'
+#cask 'font-denk-one'
+#cask 'font-devicons'
+#cask 'font-devonshire'
+#cask 'font-dhyana'
+#cask 'font-didact-gothic'
+#cask 'font-digohweli-old-do'
+#cask 'font-digohweli'
+#cask 'font-diplomata-sc'
+#cask 'font-diplomata'
+#cask 'font-disclaimer'
+#cask 'font-domine'
+#cask 'font-donegal-one'
+#cask 'font-doppio-one'
+#cask 'font-dorsa'
+#cask 'font-dosis'
+#cask 'font-dr-sugiyama'
+#cask 'font-droid-sans-mono-for-powerline'
+#cask 'font-droidsansmono-nerd-font'
+#cask 'font-droidsansmono-nerd-font-mono'
+#cask 'font-dukor'
+#cask 'font-duru-sans'
+#cask 'font-dynalight'
+#cask 'font-eagle-lake'
+#cask 'font-eater'
+#cask 'font-eb-garamond'
+#cask 'font-economica'
+#cask 'font-edlo'
+#cask 'font-eeyek-unicode'
+#cask 'font-electrolize'
+#cask 'font-elsie-swash-caps'
+#cask 'font-elsie'
+#cask 'font-emblema-one'
+#cask 'font-emilys-candy'
+#cask 'font-engagement'
+#cask 'font-englebert'
+#cask 'font-enriqueta'
+#cask 'font-erica-one'
+#cask 'font-esteban'
+#cask 'font-et-book'
+#cask 'font-euphoria-script'
+#cask 'font-everson-mono'
+#cask 'font-ewert'
+#cask 'font-exo'
+#cask 'font-exo2'
+#cask 'font-expletus-sans'
+#cask 'font-ezra-sil'
+#cask 'font-fairfax'
+#cask 'font-fantasque-sans-mono'
+#cask 'font-fanwood-text'
+#cask 'font-fascinate-inline'
+#cask 'font-fascinate'
+#cask 'font-faster-one'
+#cask 'font-fasthand'
+#cask 'font-fauna-one'
+#cask 'font-federant'
+#cask 'font-federo'
+#cask 'font-felipa'
+#cask 'font-fenix'
+#cask 'font-finger-paint'
+#cask 'font-fira-code'
+#cask 'font-fira-mono-for-powerline'
+#cask 'font-fira-mono'
+#cask 'font-fira-sans'
+#cask 'font-firacode-nerd-font-mono'
+#cask 'font-firacode-nerd-font'
+#cask 'font-fjalla-one'
+#cask 'font-fjord-one'
+#cask 'font-flamenco'
+#cask 'font-flavors'
+#cask 'font-fondamento'
+#cask 'font-fontawesome'
+#cask 'font-fontdiner-swanky'
+#cask 'font-forum'
+#cask 'font-foundation-icons'
+#cask 'font-francois-one'
+#cask 'font-freckle-face'
+#cask 'font-fredericka-the-great'
+#cask 'font-fredoka-one'
+#cask 'font-free-hk-kai'
+#cask 'font-freehand'
+#cask 'font-freesans'
+#cask 'font-fresca'
+#cask 'font-frijole'
+#cask 'font-fruktur'
+#cask 'font-fugaz-one'
+#cask 'font-gabriela'
+#cask 'font-gafata'
+#cask 'font-galdeano'
+#cask 'font-galindo'
+#cask 'font-gandom'
+#cask 'font-genjyuugothic-l'
+#cask 'font-genjyuugothic-x'
+#cask 'font-genjyuugothic'
+#cask 'font-genshingothic'
+#cask 'font-gentium-basic'
+#cask 'font-gentium-book-basic'
+#cask 'font-gentium-plus'
+#cask 'font-geo'
+#cask 'font-georgia'
+#cask 'font-geostar-fill'
+#cask 'font-geostar'
+#cask 'font-germania-one'
+#cask 'font-gfs-didot'
+#cask 'font-gfs-neohellenic'
+#cask 'font-gidole'
+#cask 'font-gilda-display'
+#cask 'font-give-you-glory'
+#cask 'font-glass-antiqua'
+#cask 'font-glegoo'
+#cask 'font-glober'
+#cask 'font-gloria-hallelujah'
+#cask 'font-gnu-unifont'
+#cask 'font-go-medium'
+#cask 'font-go-mono'
+#cask 'font-go'
+#cask 'font-goblin-one'
+#cask 'font-gochi-hand'
+#cask 'font-gorditas'
+#cask 'font-goudy-bookletter1911'
+#cask 'font-graduate'
+#cask 'font-grand-hotel'
+#cask 'font-gravitas-one'
+#cask 'font-great-vibes'
+#cask 'font-griffy'
+#cask 'font-gruppo'
+#cask 'font-gudea'
+#cask 'font-habibi'
+#cask 'font-hack-nerd-font'
+#cask 'font-halant'
+#cask 'font-hammersmith-one'
+#cask 'font-han-nom-a'
+#cask 'font-hanalei-fill'
+#cask 'font-hanalei'
+#cask 'font-hanamina'
+#cask 'font-handlee'
+#cask 'font-hanuman'
+#cask 'font-happy-monkey'
+#cask 'font-hasklig'
+#cask 'font-headland-one'
+#cask 'font-henny-penny'
+#cask 'font-hermit'
+#cask 'font-herr-von-muellerhoff'
+#cask 'font-hind'
+#cask 'font-holtwood-one-sc'
+#cask 'font-homemade-apple'
+#cask 'font-homenaje'
+#cask 'font-hyppolit'
+#cask 'font-iceberg'
+#cask 'font-iceland'
+#cask 'font-icomoon'
+#cask 'font-idealist-sans'
+#cask 'font-impact'
+#cask 'font-imprima'
+#cask 'font-inconsolata-dz-for-powerline'
+#cask 'font-inconsolata-dz'
+#cask 'font-inconsolata-for-powerline'
+#cask 'font-inconsolata-g-for-powerline'
+#cask 'font-inconsolata-lgc'
+#cask 'font-inconsolata'
+#cask 'font-inder'
+#cask 'font-indie-flower'
+#cask 'font-inika'
+#cask 'font-input'
+#cask 'font-ionicons'
+#cask 'font-iosevka'
+#cask 'font-iranian-sans'
+#cask 'font-iranian-serif'
+#cask 'font-irish-grover'
+#cask 'font-istok-web'
+#cask 'font-italiana'
+#cask 'font-italianno'
+#cask 'font-jaapokki'
+#cask 'font-jacques-francois-shadow'
+#cask 'font-jacques-francois'
+#cask 'font-jim-nightshade'
+#cask 'font-jockey-one'
+#cask 'font-jolly-lodger'
+#cask 'font-josefin-sans'
+#cask 'font-josefin-slab'
+#cask 'font-joti-one'
+#cask 'font-jsmath-cmbx10'
+#cask 'font-judson'
+#cask 'font-julee'
+#cask 'font-julius-sans-one'
+#cask 'font-junge'
+#cask 'font-junicode'
+#cask 'font-jura'
+#cask 'font-just-another-hand'
+#cask 'font-just-me-again-down-here'
+#cask 'font-kacstone'
+#cask 'font-kalam'
+#cask 'font-kameron'
+#cask 'font-kantumruy'
+#cask 'font-karla-tamil-inclined'
+#cask 'font-karla-tamil-upright'
+#cask 'font-karla'
+#cask 'font-karma'
+#cask 'font-kaushan-script'
+#cask 'font-kavoon'
+#cask 'font-kawkab-mono'
+#cask 'font-kayases'
+#cask 'font-kdam-thmor'
+#cask 'font-keania-one'
+#cask 'font-keep-calm'
+#cask 'font-kelly-slab'
+#cask 'font-kenia'
+#cask 'font-khand'
+#cask 'font-khmer'
+#cask 'font-kisiska'
+#cask 'font-kite-one'
+#cask 'font-knewave'
+#cask 'font-koruri'
+#cask 'font-kotta-one'
+#cask 'font-koulen'
+#cask 'font-kranky'
+#cask 'font-kreon'
+#cask 'font-kristi'
+#cask 'font-krona-one'
+#cask 'font-la-belle-aurore'
+#cask 'font-laila'
+#cask 'font-lalezar'
+#cask 'font-lancelot'
+#cask 'font-lateef'
+#cask 'font-latin-modern-math'
+#cask 'font-latin-modern'
+#cask 'font-lato'
+#cask 'font-league-gothic'
+#cask 'font-league-script'
+#cask 'font-league-spartan'
+#cask 'font-leckerli-one'
+#cask 'font-ledger'
+#cask 'font-lekton'
+#cask 'font-lemon'
+#cask 'font-liberation-mono-for-powerline'
+#cask 'font-liberation-sans'
+#cask 'font-libertinus'
+#cask 'font-libre-baskerville'
+#cask 'font-libre-caslon-text'
+#cask 'font-libre-franklin'
+#cask 'font-life-savers'
+#cask 'font-ligature-symbols'
+#cask 'font-lilita-one'
+#cask 'font-lily-script-one'
+#cask 'font-limelight'
+#cask 'font-linden-hill'
+#cask 'font-linux-biolinum'
+#cask 'font-linux-libertine'
+#cask 'font-lobster-two'
+#cask 'font-lobster'
+#cask 'font-londrina-outline'
+#cask 'font-londrina-shadow'
+#cask 'font-londrina-sketch'
+#cask 'font-londrina-solid'
+#cask 'font-lora'
+#cask 'font-love-ya-like-a-sister'
+#cask 'font-loved-by-the-king'
+#cask 'font-lovers-quarrel'
+#cask 'font-luckiest-guy'
+#cask 'font-luculent'
+#cask 'font-lusitana'
+#cask 'font-lustria'
+#cask 'font-m-plus'
+#cask 'font-macondo-swash-caps'
+#cask 'font-macondo'
+#cask 'font-magra'
+#cask 'font-maiden-orange'
+#cask 'font-mako'
+#cask 'font-marcellus-sc'
+#cask 'font-marcellus'
+#cask 'font-marck-script'
+#cask 'font-margarine'
+#cask 'font-marko-one'
+#cask 'font-marmelad'
+#cask 'font-marta'
+#cask 'font-marvel'
+#cask 'font-masinahikan-dene'
+#cask 'font-masinahikan'
+#cask 'font-mate-sc'
+#cask 'font-mate'
+#cask 'font-material-icons'
+#cask 'font-materialdesignicons-webfont'
+#cask 'font-maven-pro'
+#cask 'font-mclaren'
+#cask 'font-meddon'
+#cask 'font-medievalsharp'
+#cask 'font-medula-one'
+#cask 'font-megrim'
+#cask 'font-meie-script'
+#cask 'font-menlo-for-powerline'
+#cask 'font-merienda-one'
+#cask 'font-merienda'
+#cask 'font-merriweather-sans'
+#cask 'font-merriweather'
+#cask 'font-metal-mania'
+#cask 'font-metal'
+#cask 'font-metamorphous'
+#cask 'font-metrophobic'
+#cask 'font-mfizz'
+#cask 'font-miao-unicode'
+#cask 'font-michroma'
+#cask 'font-migmix-1m'
+#cask 'font-migmix-1p'
+#cask 'font-migmix-2m'
+#cask 'font-migmix-2p'
+#cask 'font-migu-1c'
+#cask 'font-migu-1m'
+#cask 'font-migu-1p'
+#cask 'font-migu-2m'
+#cask 'font-milonga'
+#cask 'font-miltonian-tattoo'
+#cask 'font-miltonian'
+#cask 'font-miniver'
+#cask 'font-miss-fajardose'
+#cask 'font-modern-antiqua'
+#cask 'font-molengo'
+#cask 'font-molle'
+#cask 'font-monda'
+#cask 'font-monofett'
+#cask 'font-monofur-for-powerline'
+#cask 'font-monoid'
+#cask 'font-monoisome'
+#cask 'font-mononoki'
+#cask 'font-monoton'
+#cask 'font-monsieur-la-doulaise'
+#cask 'font-montaga'
+#cask 'font-montez'
+#cask 'font-montserrat-subrayada'
+#cask 'font-montserrat'
+#cask 'font-moul'
+#cask 'font-moulpali'
+#cask 'font-mountains-of-christmas'
+#cask 'font-mouse-memoirs'
+#cask 'font-mr-bedfort'
+#cask 'font-mr-dafoe'
+#cask 'font-mr-de-haviland'
+#cask 'font-mrs-saint-delafield'
+#cask 'font-mrs-sheppards'
+#cask 'font-mukti-narrow'
+#cask 'font-muli'
+#cask 'font-myrica'
+#cask 'font-myricam'
+#cask 'font-mystery-quest'
+#cask 'font-n-gage'
+#cask 'font-namdhinggo-sil'
+#cask 'font-nanumgothic'
+#cask 'font-nanumgothiccoding'
+#cask 'font-nanummyeongjo'
+#cask 'font-neucha'
+#cask 'font-neuton'
+#cask 'font-new-athena-unicode'
+#cask 'font-new-rocker'
+#cask 'font-news-cycle'
+#cask 'font-nexa'
+#cask 'font-niconne'
+#cask 'font-nika'
+#cask 'font-nixie-one'
+#cask 'font-nobile'
+#cask 'font-nokora'
+#cask 'font-norican'
+#cask 'font-norwester'
+#cask 'font-nosifer'
+#cask 'font-nothing-you-could-do'
+#cask 'font-noticia-text'
+#cask 'font-noto-color-emoji'
+#cask 'font-noto-emoji'
+#cask 'font-noto-kufi-arabic'
+#cask 'font-noto-mono'
+#cask 'font-noto-naskh-arabic'
+#cask 'font-noto-nastaliq-urdu'
+#cask 'font-noto-sans-armenian'
+#cask 'font-noto-sans-avestan'
+#cask 'font-noto-sans-balinese'
+#cask 'font-noto-sans-bamum'
+#cask 'font-noto-sans-batak'
+#cask 'font-noto-sans-bengali'
+#cask 'font-noto-sans-brahmi'
+#cask 'font-noto-sans-buginese'
+#cask 'font-noto-sans-buhid'
+#cask 'font-noto-sans-canadian-aboriginal'
+#cask 'font-noto-sans-carian'
+#cask 'font-noto-sans-cham'
+#cask 'font-noto-sans-cherokee'
+#cask 'font-noto-sans-cjk-jp'
+#cask 'font-noto-sans-cjk-kr'
+#cask 'font-noto-sans-cjk-sc'
+#cask 'font-noto-sans-cjk-tc'
+#cask 'font-noto-sans-cjk'
+#cask 'font-noto-sans-coptic'
+#cask 'font-noto-sans-cuneiform'
+#cask 'font-noto-sans-cypriot'
+#cask 'font-noto-sans-deseret'
+#cask 'font-noto-sans-devanagari'
+#cask 'font-noto-sans-egyptian-hieroglyphs'
+#cask 'font-noto-sans-ethiopic'
+#cask 'font-noto-sans-georgian'
+#cask 'font-noto-sans-glagolitic'
+#cask 'font-noto-sans-gothic'
+#cask 'font-noto-sans-gujarati'
+#cask 'font-noto-sans-gurmukhi'
+#cask 'font-noto-sans-hanunoo'
+#cask 'font-noto-sans-imperial-aramaic'
+#cask 'font-noto-sans-inscriptional-pahlavi'
+#cask 'font-noto-sans-inscriptional-parthian'
+#cask 'font-noto-sans-javanese'
+#cask 'font-noto-sans-kaithi'
+#cask 'font-noto-sans-kannada'
+#cask 'font-noto-sans-kayah-li'
+#cask 'font-noto-sans-kharoshthi'
+#cask 'font-noto-sans-khmer'
+#cask 'font-noto-sans-lao'
+#cask 'font-noto-sans-lepcha'
+#cask 'font-noto-sans-limbu'
+#cask 'font-noto-sans-linear-b'
+#cask 'font-noto-sans-lisu'
+#cask 'font-noto-sans-lycian'
+#cask 'font-noto-sans-lydian'
+#cask 'font-noto-sans-malayalam'
+#cask 'font-noto-sans-mandaic'
+#cask 'font-noto-sans-meetei-mayek'
+#cask 'font-noto-sans-mongolian'
+#cask 'font-noto-sans-myanmar'
+#cask 'font-noto-sans-n-ko'
+#cask 'font-noto-sans-new-tai-lue'
+#cask 'font-noto-sans-ogham'
+#cask 'font-noto-sans-ol-chiki'
+#cask 'font-noto-sans-old-italic'
+#cask 'font-noto-sans-old-persian'
+#cask 'font-noto-sans-old-south-arabian'
+#cask 'font-noto-sans-old-turkic'
+#cask 'font-noto-sans-oriya'
+#cask 'font-noto-sans-osmanya'
+#cask 'font-noto-sans-phags-pa'
+#cask 'font-noto-sans-phoenician'
+#cask 'font-noto-sans-rejang'
+#cask 'font-noto-sans-runic'
+#cask 'font-noto-sans-samaritan'
+#cask 'font-noto-sans-saurashtra'
+#cask 'font-noto-sans-shavian'
+#cask 'font-noto-sans-sinhala'
+#cask 'font-noto-sans-sundanese'
+#cask 'font-noto-sans-syloti-nagri'
+#cask 'font-noto-sans-symbols'
+#cask 'font-noto-sans-syriac-eastern'
+#cask 'font-noto-sans-syriac-estrangela'
+#cask 'font-noto-sans-syriac-western'
+#cask 'font-noto-sans-tagalog'
+#cask 'font-noto-sans-tagbanwa'
+#cask 'font-noto-sans-tai-le'
+#cask 'font-noto-sans-tai-tham'
+#cask 'font-noto-sans-tai-viet'
+#cask 'font-noto-sans-tamil'
+#cask 'font-noto-sans-telugu'
+#cask 'font-noto-sans-thaana'
+#cask 'font-noto-sans-thai'
+#cask 'font-noto-sans-tibetan'
+#cask 'font-noto-sans-tifinagh'
+#cask 'font-noto-sans-ugaritic'
+#cask 'font-noto-sans-vai'
+#cask 'font-noto-sans-yi'
+#cask 'font-noto-sans'
+#cask 'font-noto-serif-armenian'
+#cask 'font-noto-serif-georgian'
+#cask 'font-noto-serif-khmer'
+#cask 'font-noto-serif-lao'
+#cask 'font-noto-serif-thai'
+#cask 'font-noto-serif'
+#cask 'font-nova-cut'
+#cask 'font-nova-flat'
+#cask 'font-nova-mono'
+#cask 'font-nova-oval'
+#cask 'font-nova-round'
+#cask 'font-nova-script'
+#cask 'font-nova-slim'
+#cask 'font-nova-square'
+#cask 'font-numans'
+#cask 'font-nunito'
+#cask 'font-odor-mean-chey'
+#cask 'font-office-code-pro'
+#cask 'font-offside'
+#cask 'font-old-standard-tt'
+#cask 'font-oldenburg'
+#cask 'font-oleo-script-swash-caps'
+#cask 'font-oleo-script'
+#cask 'font-open-iconic'
+#cask 'font-open-sans-condensed'
+#cask 'font-open-sans'
+#cask 'font-opendyslexic'
+#cask 'font-oranienbaum'
+#cask 'font-orbitron'
+#cask 'font-oregano'
+#cask 'font-orienta'
+#cask 'font-original-surfer'
+#cask 'font-oskiblackfoot'
+#cask 'font-oskidakelh'
+#cask 'font-oskidenea'
+#cask 'font-oskideneb'
+#cask 'font-oskidenec'
+#cask 'font-oskidenes'
+#cask 'font-oskieast'
+#cask 'font-oskiwest'
+#cask 'font-oswald'
+#cask 'font-over-the-rainbow'
+#cask 'font-overlock-sc'
+#cask 'font-overlock'
+#cask 'font-overpass'
+#cask 'font-ovo'
+#cask 'font-oxygen-mono'
+#cask 'font-oxygen'
+#cask 'font-pacifico'
+#cask 'font-padauk'
+#cask 'font-palemonas'
+#cask 'font-paprika'
+#cask 'font-parastoo'
+#cask 'font-parisienne'
+#cask 'font-passero-one'
+#cask 'font-passion-one'
+#cask 'font-pathway-gothic-one'
+#cask 'font-patrick-hand-sc'
+#cask 'font-patrick-hand'
+#cask 'font-patua-one'
+#cask 'font-paytone-one'
+#cask 'font-penuturesu'
+#cask 'font-peralta'
+#cask 'font-permanent-marker'
+#cask 'font-petit-formal-script'
+#cask 'font-petrona'
+#cask 'font-phetsarath'
+#cask 'font-philosopher'
+#cask 'font-piedra'
+#cask 'font-pinyon-script'
+#cask 'font-pirata-one'
+#cask 'font-pitabek'
+#cask 'font-plaster'
+#cask 'font-play'
+#cask 'font-playball'
+#cask 'font-playfair-display-sc'
+#cask 'font-playfair-display'
+#cask 'font-podkova'
+#cask 'font-poiret-one'
+#cask 'font-poller-one'
+#cask 'font-poly'
+#cask 'font-pompiere'
+#cask 'font-pontano-sans'
+#cask 'font-poppins'
+#cask 'font-port-lligat-sans'
+#cask 'font-port-lligat-slab'
+#cask 'font-prata'
+#cask 'font-preahvihear'
+#cask 'font-press-start2p'
+#cask 'font-prime'
+#cask 'font-prince-valiant'
+#cask 'font-princess-sofia'
+#cask 'font-prociono'
+#cask 'font-profontx'
+#cask 'font-prosto-one'
+#cask 'font-pt-mono'
+#cask 'font-pt-sans'
+#cask 'font-pt-serif'
+#cask 'font-puritan'
+#cask 'font-purple-purse'
+#cask 'font-qataban'
+#cask 'font-quando'
+#cask 'font-quantico'
+#cask 'font-quattrocento-sans'
+#cask 'font-quattrocento'
+#cask 'font-questrial'
+#cask 'font-quicksand'
+#cask 'font-quintessential'
+#cask 'font-quivira'
+#cask 'font-qwigley'
+#cask 'font-racing-sans-one'
+#cask 'font-radley'
+#cask 'font-rajdhani'
+#cask 'font-raleway-dots'
+#cask 'font-raleway'
+#cask 'font-rambla'
+#cask 'font-rammetto-one'
+#cask 'font-ranchers'
+#cask 'font-rancho'
+#cask 'font-rationale'
+#cask 'font-redacted'
+#cask 'font-redressed'
+#cask 'font-reenie-beanie'
+#cask 'font-revalia'
+#cask 'font-ribeye-marrow'
+#cask 'font-ribeye'
+#cask 'font-ricty-diminished'
+#cask 'font-righteous'
+#cask 'font-risque'
+#cask 'font-roboto-condensed'
+#cask 'font-roboto-mono-for-powerline'
+#cask 'font-roboto-mono'
+#cask 'font-roboto-slab'
+#cask 'font-roboto'
+#cask 'font-rochester'
+#cask 'font-rock-salt'
+#cask 'font-rokkitt'
+#cask 'font-romanesco'
+#cask 'font-ropa-sans'
+#cask 'font-rosario'
+#cask 'font-rosarivo'
+#cask 'font-rotinonhsonni-sans'
+#cask 'font-rotinonhsonni-serif'
+#cask 'font-rouge-script'
+#cask 'font-rounded-m-plus'
+#cask 'font-rozha-one'
+#cask 'font-ruda'
+#cask 'font-rufina'
+#cask 'font-ruge-boogie'
+#cask 'font-ruluko'
+#cask 'font-rum-raisin'
+#cask 'font-rupakara'
+#cask 'font-ruslan-display'
+#cask 'font-russo-one'
+#cask 'font-ruthie'
+#cask 'font-rye'
+#cask 'font-sacramento'
+#cask 'font-sadagolthina'
+#cask 'font-sail'
+#cask 'font-salsa'
+#cask 'font-samim'
+#cask 'font-sanchez'
+#cask 'font-sancreek'
+#cask 'font-sansita-one'
+#cask 'font-sarina'
+#cask 'font-sarpanch'
+#cask 'font-satisfy'
+#cask 'font-scada'
+#cask 'font-scheherazade'
+#cask 'font-schoolbell'
+#cask 'font-seaweed-script'
+#cask 'font-sevillana'
+#cask 'font-seymour-one'
+#cask 'font-shabnam'
+#cask 'font-shadows-into-light-two'
+#cask 'font-shadows-into-light'
+#cask 'font-shanti'
+#cask 'font-share-tech-mono'
+#cask 'font-share-tech'
+#cask 'font-share'
+#cask 'font-shojumaru'
+#cask 'font-short-stack'
+#cask 'font-siemreap'
+#cask 'font-sigmar-one'
+#cask 'font-signika-negative'
+#cask 'font-silent-lips'
+#cask 'font-simonetta'
+#cask 'font-sinkin-sans'
+#cask 'font-sintony'
+#cask 'font-sirin-stencil'
+#cask 'font-six-caps'
+#cask 'font-skranji'
+#cask 'font-slackey'
+#cask 'font-smokum'
+#cask 'font-smythe'
+#cask 'font-sniglet'
+#cask 'font-snippet'
+#cask 'font-snowburst-one'
+#cask 'font-sofadi-one'
+#cask 'font-sofia'
+#cask 'font-sonsie-one'
+#cask 'font-sorts-mill-goudy'
+#cask 'font-source-code-pro-for-powerline'
+#cask 'font-source-code-pro'
+#cask 'font-source-han-code-jp'
+#cask 'font-source-han-sans'
+#cask 'font-source-sans-pro'
+#cask 'font-source-serif-pro'
+#cask 'font-space-mono'
+#cask 'font-special-elite'
+#cask 'font-spicy-rice'
+#cask 'font-spinnaker'
+#cask 'font-spirax'
+#cask 'font-squada-one'
+#cask 'font-stalemate'
+#cask 'font-stalinist-one'
+#cask 'font-stardos-stencil'
+#cask 'font-stint-ultra-condensed'
+#cask 'font-stint-ultra-expanded'
+#cask 'font-stoke'
+#cask 'font-strait'
+#cask 'font-sue-ellen-francisco'
+#cask 'font-sunshiney'
+#cask 'font-supermercado-one'
+#cask 'font-swanky-and-moo-moo'
+#cask 'font-symbola'
+#cask 'font-syncopate'
+#cask 'font-tai-le-valentinium'
+#cask 'font-takaoex'
+#cask 'font-tangerine'
+#cask 'font-taprom'
+#cask 'font-tauri'
+#cask 'font-teko'
+#cask 'font-telex'
+#cask 'font-tenor-sans'
+#cask 'font-terminus'
+#cask 'font-tex-gyre-adventor'
+#cask 'font-tex-gyre-bonum'
+#cask 'font-tex-gyre-chorus'
+#cask 'font-tex-gyre-cursor'
+#cask 'font-tex-gyre-heros'
+#cask 'font-tex-gyre-pagella-math'
+#cask 'font-tex-gyre-pagella'
+#cask 'font-tex-gyre-schola'
+#cask 'font-tex-gyre-termes'
+#cask 'font-text-me-one'
+#cask 'font-thabit'
+#cask 'font-the-girl-next-door'
+#cask 'font-tibetan-machine-uni'
+#cask 'font-tienne'
+#cask 'font-tillana'
+#cask 'font-times-new-roman'
+#cask 'font-tinos'
+#cask 'font-titan-one'
+#cask 'font-trade-winds'
+#cask 'font-trebuchet-ms'
+#cask 'font-trocchi'
+#cask 'font-trochut'
+#cask 'font-trykker'
+#cask 'font-tuffy'
+#cask 'font-tulpen-one'
+#cask 'font-twitter-color-emoji'
+#cask 'font-ubuntu-mono-derivative-powerline'
+#cask 'font-ubuntu'
+#cask 'font-ultra'
+#cask 'font-uncial-antiqua'
+#cask 'font-underdog'
+#cask 'font-unica-one'
+#cask 'font-unifrakturcook'
+#cask 'font-unifrakturmaguntia'
+#cask 'font-unkempt'
+#cask 'font-unlock'
+#cask 'font-unna'
+#cask 'font-vampiro-one'
+#cask 'font-varela-round'
+#cask 'font-varela'
+#cask 'font-vast-shadow'
+#cask 'font-vazir-code'
+#cask 'font-vazir'
+#cask 'font-verdana'
+#cask 'font-vibur'
+#cask 'font-vidaloka'
+#cask 'font-viga'
+#cask 'font-voces'
+#cask 'font-volkhov'
+#cask 'font-vollkorn'
+#cask 'font-voltaire'
+#cask 'font-vt323'
+#cask 'font-waiting-for-the-sunrise'
+#cask 'font-wakor'
+#cask 'font-wallpoet'
+#cask 'font-walter-turncoat'
+#cask 'font-waltograph'
+#cask 'font-warnes'
+#cask 'font-webdings'
+#cask 'font-wellfleet'
+#cask 'font-wendy-one'
+#cask 'font-wenquanyi-micro-hei-lite'
+#cask 'font-wenquanyi-micro-hei'
+#cask 'font-wenquanyi-zen-hei'
+#cask 'font-wire-one'
+#cask 'font-work-sans'
+#cask 'font-xits'
+#cask 'font-yanone-kaffeesatz'
+#cask 'font-yellowtail'
+#cask 'font-yeseva-one'
+#cask 'font-yesteryear'
+#cask 'font-zeyada'
 
 ##
 # Extras
