@@ -1,12 +1,12 @@
 # Use `brew bundle` to install the packages listed below
 
 # Packages
-brew 'ack'
-brew 'vim', args: ['--with-override-system-vi']
-brew 'watch'
-brew 'wget'
-brew 'fasd'
-brew 'git'
+###brew 'ack'
+###brew 'vim', args: ['--with-override-system-vi']
+###brew 'watch'
+###brew 'wget'
+###brew 'fasd'
+###brew 'git'
 brew 'colordiff'
 brew 'tmux'
 brew 'jq'

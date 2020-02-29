@@ -239,7 +239,7 @@ cask 'lastpass'
 #brew 'most'
 
 # Vim editor
-#brew 'vim'
+brew 'vim' #, args: ['--with-override-system-vi']
 
 # MacVIM editor
 #cask 'macvim'
@@ -378,7 +378,10 @@ brew 'coreutils'
 #brew 'gnu-which'
 #brew 'gnutls'
 #brew 'gzip'
-#brew 'watch'
+
+# Watch executes a program periodically, showing output fullscreen
+brew 'watch'
+
 #brew 'wdiff'
 
 ##
@@ -429,6 +432,9 @@ brew 'openssl'
 
 # fd: a simple, fast and user-friendly alternative to find.
 brew 'fd'
+
+# Fasd is a CLI tool for quick access to files and directories
+brew 'fasd'
 
 # RPM is the RedHat Package manager
 #brew 'rpm'
@@ -508,7 +514,7 @@ brew 'rsync'
 #brew 'syncthing'
 
 # Dropbox file sharing.
-#cask 'dropbox'
+cask 'dropbox'
 
 # Transmission bittorrent client.
 #cask 'transmission'
@@ -533,6 +539,9 @@ brew 'grep'
 
 # sift is like grep, plus faster and with more features; retired by ripgrep.
 #brew 'sift'
+
+# ack is a search tool like grep, but optimized for programmers
+brew 'ack'
 
 # jq is a lightweight and flexible command-line JSON processor.
 brew 'jq'
@@ -1727,9 +1736,6 @@ brew 'ansible'
 
 # TODO
 #brew 'abook'
-
-# TODO
-#brew 'ack'
 
 # TODO
 #brew 'apachetop'
@@ -4063,7 +4069,6 @@ cask 'visual-studio-code'
 # brew 'w3m'
 # brew 'wait_on'
 # brew 'wakeonlan'
-# brew 'watch'
 # brew 'wavpack'
 # brew 'wbox'
 # brew 'wdfs'

@@ -614,7 +614,7 @@ brew 'vtk'
 ## ebooks
 
 # Calibre ebook reader and manager
-cask 'calibre'
+#cask 'calibre'
 
 # Kindle book reader by Amazon
 #cask 'kindle'
