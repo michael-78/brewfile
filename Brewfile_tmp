@@ -7,12 +7,12 @@
 ###brew 'wget'
 ###brew 'fasd'
 ###brew 'git'
-brew 'colordiff'
-brew 'tmux'
-brew 'jq'
+###brew 'colordiff'
+###brew 'tmux'
+###brew 'jq'
 
 # Apps
-cask 'alacritty'
+###cask 'alacritty'
 
 # Fonts
 tap 'caskroom/fonts'

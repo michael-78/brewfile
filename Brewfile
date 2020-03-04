@@ -161,8 +161,8 @@ cask 'opera'
 cask 'iterm2'
 
 # Tmux is a newer terminal multiplexer.
-#brew 'pkg-config', link: true
-#brew 'tmux'
+brew 'pkg-config', link: true
+brew 'tmux'
 
 # tmate is a fork of tmux that makes screen sharing friendlier.
 #brew 'tmate'
@@ -172,6 +172,10 @@ cask 'iterm2'
 
 # ngrok opens a secure tunnel to localhost
 #cask 'ngrok'
+
+# Alacritty is a terminal emulator with a strong focus on simplicity and performance.
+# https://github.com/alacritty/alacritty
+cask 'alacritty'
 
 ##
 # Shells
@@ -383,6 +387,9 @@ brew 'coreutils'
 brew 'watch'
 
 #brew 'wdiff'
+
+# The Perl script colordiff is a wrapper for 'diff' and produces the same output but with pretty 'syntax' highlighting.
+brew 'colordiff'
 
 ##
 # Some GNU command line tools already exist by default on OS X.
@@ -1775,9 +1782,6 @@ brew 'ansible'
 
 # TODO
 #brew 'bogofilter'
-
-# TODO
-#brew 'colordiff'
 
 # TODO
 #brew 'ctags'
