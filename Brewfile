@@ -140,6 +140,12 @@ cask 'brave-browser'
 # Google Chrome web browser
 cask 'google-chrome'
 
+# Chromium web browser
+cask 'chromium'
+
+# Microsoft Edge web browser
+cask 'microsoft-edge'
+
 # Lynx terminal web browser
 brew 'lynx'
 

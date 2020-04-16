@@ -1,5 +1,5 @@
 ##
-# Brewfile by Joel Parker Henderson and SixArm.com
+# Brewfile Work by Joel Parker Henderson and SixArm.com
 #
 # We use this Brewfile for our teams and their developer laptops.
 # This is a work in progress. Use at your own discretion.
@@ -140,6 +140,12 @@ cask 'brave-browser'
 # Google Chrome web browser
 cask 'google-chrome'
 
+# Chromium web browser
+cask 'chromium'
+
+# Microsoft Edge web browser
+cask 'microsoft-edge'
+
 # Lynx terminal web browser
 brew 'lynx'
 
@@ -161,8 +167,8 @@ cask 'opera'
 cask 'iterm2'
 
 # Tmux is a newer terminal multiplexer.
-#brew 'pkg-config', link: true
-#brew 'tmux'
+brew 'pkg-config', link: true
+brew 'tmux'
 
 # tmate is a fork of tmux that makes screen sharing friendlier.
 #brew 'tmate'
@@ -172,6 +178,10 @@ cask 'iterm2'
 
 # ngrok opens a secure tunnel to localhost
 #cask 'ngrok'
+
+# Alacritty is a terminal emulator with a strong focus on simplicity and performance.
+# https://github.com/alacritty/alacritty
+cask 'alacritty'
 
 ##
 # Shells
@@ -239,7 +249,7 @@ cask 'lastpass'
 #brew 'most'
 
 # Vim editor
-#brew 'vim'
+brew 'vim' #, args: ['--with-override-system-vi']
 
 # MacVIM editor
 #cask 'macvim'
@@ -378,8 +388,14 @@ brew 'coreutils'
 #brew 'gnu-which'
 #brew 'gnutls'
 #brew 'gzip'
-#brew 'watch'
+
+# Watch executes a program periodically, showing output fullscreen
+brew 'watch'
+
 #brew 'wdiff'
+
+# The Perl script colordiff is a wrapper for 'diff' and produces the same output but with pretty 'syntax' highlighting.
+brew 'colordiff'
 
 ##
 # Some GNU command line tools already exist by default on OS X.
@@ -429,6 +445,9 @@ brew 'openssl'
 
 # fd: a simple, fast and user-friendly alternative to find.
 brew 'fd'
+
+# Fasd is a CLI tool for quick access to files and directories
+brew 'fasd'
 
 # RPM is the RedHat Package manager
 #brew 'rpm'
@@ -533,6 +552,9 @@ brew 'grep'
 
 # sift is like grep, plus faster and with more features; retired by ripgrep.
 #brew 'sift'
+
+# ack is a search tool like grep, but optimized for programmers
+brew 'ack'
 
 # jq is a lightweight and flexible command-line JSON processor.
 brew 'jq'
@@ -1729,9 +1751,6 @@ brew 'ansible'
 #brew 'abook'
 
 # TODO
-#brew 'ack'
-
-# TODO
 #brew 'apachetop'
 
 # TODO
@@ -1769,9 +1788,6 @@ brew 'ansible'
 
 # TODO
 #brew 'bogofilter'
-
-# TODO
-#brew 'colordiff'
 
 # TODO
 #brew 'ctags'
@@ -4063,7 +4079,6 @@ cask 'visual-studio-code'
 # brew 'w3m'
 # brew 'wait_on'
 # brew 'wakeonlan'
-# brew 'watch'
 # brew 'wavpack'
 # brew 'wbox'
 # brew 'wdfs'
