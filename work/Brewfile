@@ -102,6 +102,7 @@
 # Preflight
 ##
 
+# Applications
 cask_args appdir: '/Applications'
 
 # Tap homebrew
@@ -135,22 +136,22 @@ cask 'firefox'
 #cask 'firefox-developer-edition'
 
 # Brave web browser, which features security by default.
-cask 'brave-browser'
+#cask 'brave-browser'
 
 # Google Chrome web browser
 cask 'google-chrome'
 
 # Chromium web browser
-cask 'chromium'
+#cask 'chromium'
 
 # Microsoft Edge web browser
 cask 'microsoft-edge'
 
 # Lynx terminal web browser
-brew 'lynx'
+#brew 'lynx'
 
 # Opera web browser
-cask 'opera'
+#cask 'opera'
 
 # Brow.sh text browser
 #tap 'browsh-org/homebrew-browsh'
@@ -221,16 +222,16 @@ cask 'alacritty'
 #cask 'keybase'
 
 # Authy password manager, which is cross-platform
-cask 'authy'
+#cask 'authy'
 
 # Bitwarden password manager, which is open-source
-#cask 'bitwarden'
+cask 'bitwarden'
 
 # 1password is a password manager
 #cask '1password'
 
 # LastPass is a password manager
-cask 'lastpass'
+#cask 'lastpass'
 
 ##
 # Editors
@@ -249,7 +250,7 @@ cask 'lastpass'
 #brew 'most'
 
 # Vim editor
-brew 'vim' #, args: ['--with-override-system-vi']
+brew 'vim', args: ['--with-override-system-vi']
 
 # MacVIM editor
 #cask 'macvim'
@@ -289,13 +290,13 @@ brew 'vim' #, args: ['--with-override-system-vi']
 ##
 
 # Carthage is a simple, decentralized dependency manager for Cocoa.
-brew 'carthage'
+#brew 'carthage'
 
 # curl is a command line tool for transferring data with URL syntax.
 brew 'curl', link: true
 
 # HTTrack is a free and easy-to-use offline browser utility.
-brew 'httrack'
+#brew 'httrack'
 
 # Wget is a free software package for retrieving files using HTTP and FTP.
 brew 'wget'
@@ -375,7 +376,7 @@ brew 'git'
 ##
 
 # Basic file, shell and text manipulation utilities of the GNU operating system.
-brew 'coreutils'
+#brew 'coreutils'
 
 #brew 'binutils'
 #brew 'diffutils'
@@ -422,7 +423,7 @@ brew 'gpg'
 brew 'gnupg'
 
 # GNU Privacy Guard (GnuPG) PIN entry for macOS to do GPG terminal decryption
-brew 'pinentry-mac'
+#brew 'pinentry-mac'
 
 # OpenSSL is an open-source implementation of the SSL and TLS protocols.
 brew 'openssl'
@@ -478,25 +479,25 @@ brew 'fasd'
 ## Compression & decompression
 
 # Zstandard is the best modern compression
-brew 'zstd'
+#brew 'zstd'
 
 # WinRAR provides compression/decompression for RAR and ZIP files.
-brew 'unrar'
+#brew 'unrar'
 
 # unzip is the classic command.
-brew 'unzip'
+#brew 'unzip'
 
 # bzip
-brew 'bzip2', link: true
+#brew 'bzip2', link: true
 
 # ZIP file compression
-brew 'libzip'
+#brew 'libzip'
 
 # pp7zip
-brew 'p7zip'
+#brew 'p7zip'
 
 # GNU zip
-brew 'gzip'
+#brew 'gzip'
 
 # RPM to CPIO converts a Red Hat RPM package file to a cpio archive
 #brew 'rpm2cpio'
@@ -505,10 +506,10 @@ brew 'gzip'
 ## Encryption & decryption
 
 # bcrypt is high quality encryption that is very popular
-brew 'bcrypt'
+#brew 'bcrypt'
 
 # scrypt is high quality encryption
-brew 'scrypt'
+#brew 'scrypt'
 
 ##
 # File synchronization
@@ -518,7 +519,7 @@ brew 'scrypt'
 ##
 
 # rsync is the classic unix file synchronizer.
-brew 'rsync'
+#brew 'rsync'
 
 # Unison is a high-level file synchronization utility.
 #brew 'unison'
@@ -542,10 +543,10 @@ brew 'rsync'
 ##
 
 # ripgrep is text search; we prefer it over grep, ag, git grep, ucg, pt, sift.
-brew 'ripgrep'
+#brew 'ripgrep'
 
 # grep is the classic searcher
-brew 'grep'
+#brew 'grep'
 
 # ag is "the silver searcher" search tool; retired by ripgrep.
 #brew 'ag'
@@ -607,7 +608,7 @@ cask 'vlc'
 #cask 'airfoil'
 
 # eqMac2: System-wide Audio Equalizer for the Mac; free open source
-cask 'eqmac'
+#cask 'eqmac'
 
 
 ## Multimedia editors
@@ -748,7 +749,7 @@ brew 'graphicsmagick'
 #
 ##
 
-brew 'awk'
+#brew 'awk'
 #brew 'diffstat'
 #brew 'diffutils'
 #brew 'ed'
@@ -991,6 +992,13 @@ cask 'slack'
 #cask 'unity-web-player'
 #cask 'zoomus'
 
+# Quick Look plugins
+cask 'qlcolorcode'
+cask 'qlstephen'
+cask 'qlmarkdown'
+cask 'quicklook-json'
+cask 'quicklook-csv'
+
 ##
 # Mac App Store
 #
@@ -1067,7 +1075,7 @@ cask 'slack'
 ##
 
 # GUI for rsync
-brew 'grsync'
+#brew 'grsync'
 
 # Pandoc document convert
 #brew 'pandoc', link: true
@@ -1125,20 +1133,20 @@ cask 'postman'
 ##
 
 # Netcat is a networking utility for the TCP/IP protocol.
-brew 'netcat'
+#brew 'netcat'
 
 # prettyping: ping with colorful output and progress bars
-brew 'prettyping'
+#brew 'prettyping'
 
 # mtr: a better tool for ping and traceroute
-brew 'mtr'
+#brew 'mtr'
 
 # Wireshark network monitoring, with the QT GUI.
-brew 'cmake', link: true
+#brew 'cmake', link: true
 
 # Wireshark-chmodbft enables regular users to capture network packets.
 # Use this for typical macOS behaviors; use this insted of 'wireshark'.
-cask 'wireshark-chmodbpf'
+#cask 'wireshark-chmodbpf'
 
 # Charles web debugging proxy
 #cask 'charles'
@@ -1147,7 +1155,7 @@ cask 'wireshark-chmodbpf'
 #brew 'siege'
 
 # nmap network mapper is a security scanner
-brew 'nmap'
+#brew 'nmap'
 
 # Certbot: automatically enable HTTPS on your website via Let's Encrypt
 #brew 'certbot'
@@ -1429,7 +1437,7 @@ brew 'go'
 ## Python
 
 # Python programming language, esp. for systems scripting.
-brew 'python'
+#brew 'python'
 brew 'python3'
 
 # Python on the JVM
@@ -1540,7 +1548,7 @@ brew 'python3'
 #brew 'azure-cli'
 
 # Amazon Web Services (AWS) Command Line Interface (CLI)
-brew 'awscli'
+#brew 'awscli'
 
 # AWS command line tools
 #tap 'wallix/awless'
@@ -1559,8 +1567,8 @@ cask 'virtualbox'
 cask 'vmware-fusion'
 
 # Vagrant lightweight, reproducible, portable development environments
-#cask 'vagrant'
-#cask 'vagrant-manager'
+cask 'vagrant'
+cask 'vagrant-manager'
 
 ## Provisioning
 
