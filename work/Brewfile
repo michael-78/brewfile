@@ -1751,7 +1751,7 @@ brew 'ansible'
 #brew 'salt'
 
 # Tree is a directory lister that shows a tree outline
-#brew 'tree'
+brew 'tree'
 
 # xclip is a command line interface to the X11 clipboard.
 #brew 'xclip'
@@ -4002,7 +4002,6 @@ cask 'visual-studio-code'
 # brew 'transcode'
 # brew 'transmission'
 # brew 'tre'
-# brew 'tree'
 # brew 'treecc'
 # brew 'treeline'
 # brew 'triangle'
